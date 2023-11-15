@@ -1,0 +1,1968 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Berita_Online &#8212; Penambangan web</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Berita_Online';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="LDA_Topic_Modelling" href="LDA_Topic_Modelling.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Penambangan web - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Penambangan web - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Home</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Task</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Web_Crowling.html">Web_Crowling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LDA_Topic_Modelling.html">LDA_Topic_Modelling</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Berita_Online</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/arshell19/ppw_tugas/blob/master/docs/Berita_Online.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onColab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/arshell19/ppw_tugas" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/arshell19/ppw_tugas/issues/new?title=Issue%20on%20page%20%2FBerita_Online.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Berita_Online.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Berita_Online</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="berita-online">
+<h1>Berita_Online<a class="headerlink" href="#berita-online" title="Permalink to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">import</span> <span class="nn">nltk</span>
+
+<span class="c1"># Unduh konten halaman web berita</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://news.detik.com/pemilu/d-7035258/maju-pilpres-2024-bareng-ganjar-mahfud-minta-doa-ke-gus-mus&quot;</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="n">html</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span>
+
+<span class="c1"># Parsing halaman web menggunakan BeautifulSoup</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>
+
+<span class="c1"># Ekstraksi teks dari elemen-elemen yang berisi berita</span>
+<span class="n">article</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;div&#39;</span> <span class="p">,</span><span class="n">class_</span><span class="o">=</span><span class="s2">&quot;detail__body-text itp_bodycontent&quot;</span><span class="p">)</span>  <span class="c1"># Sesuaikan dengan struktur HTML halaman web berita</span>
+<span class="n">article_text</span> <span class="o">=</span> <span class="n">article</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+
+<span class="c1"># Tokenisasi teks menjadi kalimat menggunakan nltk</span>
+<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;punkt&#39;</span><span class="p">)</span>  <span class="c1"># Pastikan Anda sudah mengunduh tokenisasi kalimat nltk</span>
+<span class="n">sentences</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">sent_tokenize</span><span class="p">(</span><span class="n">article_text</span><span class="p">)</span>
+
+<span class="c1"># Cetak kalimat-kalimat</span>
+<span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package punkt to /root/nltk_data...
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data]   Unzipping tokenizers/punkt.zip.
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).
+Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.
+&quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.
+Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.
+Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.
+ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.
+Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.
+Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.
+Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.
+Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.
+(dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!
+Lihat
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+
+<span class="c1"># Inisialisasi penghitung TF-IDF</span>
+<span class="n">tfidf_vectorizer</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
+
+<span class="c1"># Hitung TF-IDF</span>
+<span class="n">tfidf_matrix</span> <span class="o">=</span> <span class="n">tfidf_vectorizer</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">sentences</span><span class="p">)</span>
+
+<span class="c1"># Daftar kata kunci</span>
+<span class="n">feature_names</span> <span class="o">=</span> <span class="n">tfidf_vectorizer</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">()</span>
+
+<span class="c1"># Konversi matriks TF-IDF menjadi bentuk yang lebih mudah dibaca</span>
+<span class="n">tfidf_values</span> <span class="o">=</span> <span class="n">tfidf_matrix</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+
+<span class="c1"># Cetak TF-IDF untuk setiap kata dalam setiap kalimat</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sentences</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">feature_names</span><span class="p">):</span>
+        <span class="n">tfidf_value</span> <span class="o">=</span> <span class="n">tfidf_values</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">tfidf_value</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">word</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">tfidf_value</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Kalimat 1: 
+Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).
+berkunjung: 0.2719
+cawapres: 0.2335
+di: 0.2062
+ganjar: 0.2719
+gus: 0.1406
+jakarta: 0.2719
+jateng: 0.2719
+jawa: 0.2719
+ke: 0.2062
+kediaman: 0.2062
+kelurahan: 0.2719
+leteh: 0.2335
+mahfud: 0.1533
+md: 0.2335
+mus: 0.1406
+pranowo: 0.2719
+rembang: 0.2335
+tengah: 0.2719
+
+Kalimat 2: Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.
+bahwa: 0.3064
+dirinya: 0.3568
+gus: 0.1846
+ikut: 0.3064
+informasi: 0.3064
+kepada: 0.2707
+kontestasi: 0.3064
+mahfud: 0.2012
+memberi: 0.3064
+mengaku: 0.3568
+mus: 0.1846
+politik: 0.3064
+
+Kalimat 3: &quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.
+gus: 0.2025
+kan: 0.3915
+ke: 0.2970
+leteh: 0.3362
+mus: 0.2025
+rembang: 0.3362
+saya: 0.2666
+sering: 0.3915
+sini: 0.3362
+sowan: 0.3362
+
+Kalimat 4: Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.
+11: 0.1683
+14: 0.1683
+2023: 0.1683
+baca: 0.1445
+bahwa: 0.1445
+dan: 0.1146
+detikjateng: 0.1683
+dilansir: 0.1683
+doa: 0.1277
+gus: 0.1741
+ikut: 0.1445
+informasi: 0.1445
+juga: 0.3366
+kata: 0.1683
+ke: 0.1277
+kepada: 0.1277
+kontestasi: 0.1445
+mahfud: 0.1898
+memberi: 0.1445
+memohon: 0.1683
+menjadi: 0.1683
+mus: 0.1741
+politik: 0.1445
+ringan: 0.1683
+saja: 0.1683
+saya: 0.2292
+segarmahfud: 0.1683
+selasa: 0.1683
+sempat: 0.1683
+semua: 0.1683
+sowan: 0.2891
+usai: 0.1683
+ya: 0.1445
+
+Kalimat 5: Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.
+bangsa: 0.2501
+dimaksudkan: 0.2912
+doa: 0.2210
+dukungan: 0.2912
+indonesia: 0.2210
+itu: 0.2501
+kebaikan: 0.2501
+melainkan: 0.2912
+meminta: 0.2912
+tetapi: 0.2501
+tidak: 0.2501
+untuk: 0.5003
+
+Kalimat 6: ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.
+advertisement: 0.2716
+bagi: 0.2716
+bangsa: 0.2333
+content: 0.2716
+continue: 0.2716
+dan: 0.1850
+doa: 0.2061
+indonesia: 0.2061
+minta: 0.2716
+negara: 0.2716
+saya: 0.1850
+scroll: 0.2716
+terbaik: 0.2716
+to: 0.2716
+with: 0.2716
+yang: 0.2333
+
+Kalimat 7: Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.
+ada: 0.2547
+apa: 0.2547
+atau: 0.2547
+berdoa: 0.5094
+bersama: 0.2547
+dukung: 0.2547
+mendukung: 0.2547
+sama: 0.2547
+saya: 0.1734
+tadi: 0.2187
+tetapi: 0.2187
+tidak: 0.2187
+urusan: 0.2547
+ya: 0.2187
+
+Kalimat 8: Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.
+adalah: 0.1793
+agar: 0.1793
+allah: 0.1793
+baik: 0.1793
+berlangsung: 0.1793
+didukung: 0.1793
+dilakukan: 0.1793
+diminta: 0.1793
+doanya: 0.1793
+indonesia: 0.2721
+itu: 0.1540
+jam: 0.1793
+kebaikan: 0.1540
+kepada: 0.1360
+lebih: 0.3587
+mahfud: 0.1011
+pertemuan: 0.1793
+satu: 0.1793
+secara: 0.1793
+sehingga: 0.1793
+selama: 0.1793
+tadi: 0.1540
+terpantau: 0.1793
+tertutup: 0.1793
+ungkap: 0.1793
+untuk: 0.1540
+yang: 0.3080
+
+Kalimat 9: Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.
+18: 0.2010
+19: 0.2010
+32: 0.2010
+39: 0.2010
+asyik: 0.2010
+berbincang: 0.2010
+berpamitan: 0.2010
+dan: 0.2737
+dari: 0.1726
+gus: 0.1040
+kediaman: 0.1525
+keduanya: 0.2010
+luar: 0.2010
+mahfud: 0.1133
+mus: 0.1040
+pukul: 0.4019
+pulang: 0.2010
+rombongan: 0.2010
+terdengar: 0.1726
+tiba: 0.2010
+wib: 0.4019
+
+Kalimat 10: Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.
+baca: 0.2518
+dalam: 0.2932
+dari: 0.2518
+di: 0.2224
+gus: 0.1516
+kediaman: 0.2224
+lepas: 0.2932
+mus: 0.1516
+ruang: 0.2932
+selengkapnya: 0.2932
+sesekali: 0.2932
+sini: 0.2518
+tamu: 0.2932
+tawa: 0.2932
+terdengar: 0.2518
+
+Kalimat 11: (dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!
+2024: 0.3574
+berita: 0.1787
+capres: 0.1787
+cawapres: 0.1535
+cek: 0.1787
+dan: 0.1217
+dek: 0.3574
+di: 0.1356
+favoritmu: 0.1787
+gus: 0.0924
+hingga: 0.1787
+jejak: 0.1787
+mahfud: 0.2015
+md: 0.1535
+misi: 0.1787
+mus: 0.0924
+pantau: 0.1787
+pasangan: 0.1787
+pemilu: 0.3574
+pilpres: 0.1787
+profil: 0.1787
+rekam: 0.1787
+sekarang: 0.1787
+terkini: 0.1787
+visi: 0.1787
+
+Kalimat 12: Lihat
+lihat: 1.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+
+<span class="c1"># Indeks kalimat yang akan dibandingkan</span>
+<span class="n">sentence1_index</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Ganti dengan indeks kalimat pertama yang ingin Anda bandingkan</span>
+<span class="n">sentence2_index</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># Ganti dengan indeks kalimat kedua yang ingin Anda bandingkan</span>
+
+<span class="c1"># Ambil vektor TF-IDF untuk kedua kalimat</span>
+<span class="n">tfidf_vector1</span> <span class="o">=</span> <span class="n">tfidf_matrix</span><span class="p">[</span><span class="n">sentence1_index</span><span class="p">]</span>
+<span class="n">tfidf_vector2</span> <span class="o">=</span> <span class="n">tfidf_matrix</span><span class="p">[</span><span class="n">sentence2_index</span><span class="p">]</span>
+
+<span class="c1"># Hitung cosine similarity antara kedua vektor</span>
+<span class="n">similarity</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_vector1</span><span class="p">,</span> <span class="n">tfidf_vector2</span><span class="p">)</span>
+
+<span class="c1"># Cetak hasil cosine similarity</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Cosine Similarity antara Kalimat </span><span class="si">{</span><span class="n">sentence1_index</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2"> dan Kalimat </span><span class="si">{</span><span class="n">sentence2_index</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">similarity</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Cosine Similarity antara Kalimat 1 dan Kalimat 2: 0.0827
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Cetak hasil similarity_matrix</span>
+<span class="n">num_sentences</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">)</span>  <span class="c1"># Jumlah kalimat</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_sentences</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_sentences</span><span class="p">):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Cosine Similarity antara Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2"> dan Kalimat </span><span class="si">{</span><span class="n">j</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">similarity</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Cosine Similarity antara Kalimat 1 dan Kalimat 2: 0.0827
+Cosine Similarity antara Kalimat 1 dan Kalimat 3: 0.2752
+Cosine Similarity antara Kalimat 1 dan Kalimat 4: 0.1044
+Cosine Similarity antara Kalimat 1 dan Kalimat 5: 0.0000
+Cosine Similarity antara Kalimat 1 dan Kalimat 6: 0.0000
+Cosine Similarity antara Kalimat 1 dan Kalimat 7: 0.0000
+Cosine Similarity antara Kalimat 1 dan Kalimat 8: 0.0155
+Cosine Similarity antara Kalimat 1 dan Kalimat 9: 0.0781
+Cosine Similarity antara Kalimat 1 dan Kalimat 10: 0.1344
+Cosine Similarity antara Kalimat 1 dan Kalimat 11: 0.1565
+Cosine Similarity antara Kalimat 1 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 2 dan Kalimat 3: 0.0748
+Cosine Similarity antara Kalimat 2 dan Kalimat 4: 0.4028
+Cosine Similarity antara Kalimat 2 dan Kalimat 5: 0.0000
+Cosine Similarity antara Kalimat 2 dan Kalimat 6: 0.0000
+Cosine Similarity antara Kalimat 2 dan Kalimat 7: 0.0000
+Cosine Similarity antara Kalimat 2 dan Kalimat 8: 0.0572
+Cosine Similarity antara Kalimat 2 dan Kalimat 9: 0.0612
+Cosine Similarity antara Kalimat 2 dan Kalimat 10: 0.0560
+Cosine Similarity antara Kalimat 2 dan Kalimat 11: 0.0747
+Cosine Similarity antara Kalimat 2 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 3 dan Kalimat 4: 0.2667
+Cosine Similarity antara Kalimat 3 dan Kalimat 5: 0.0000
+Cosine Similarity antara Kalimat 3 dan Kalimat 6: 0.0493
+Cosine Similarity antara Kalimat 3 dan Kalimat 7: 0.0462
+Cosine Similarity antara Kalimat 3 dan Kalimat 8: 0.0000
+Cosine Similarity antara Kalimat 3 dan Kalimat 9: 0.0421
+Cosine Similarity antara Kalimat 3 dan Kalimat 10: 0.1461
+Cosine Similarity antara Kalimat 3 dan Kalimat 11: 0.0374
+Cosine Similarity antara Kalimat 3 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 4 dan Kalimat 5: 0.0282
+Cosine Similarity antara Kalimat 4 dan Kalimat 6: 0.0899
+Cosine Similarity antara Kalimat 4 dan Kalimat 7: 0.0714
+Cosine Similarity antara Kalimat 4 dan Kalimat 8: 0.0366
+Cosine Similarity antara Kalimat 4 dan Kalimat 9: 0.0891
+Cosine Similarity antara Kalimat 4 dan Kalimat 10: 0.0892
+Cosine Similarity antara Kalimat 4 dan Kalimat 11: 0.0844
+Cosine Similarity antara Kalimat 4 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 5 dan Kalimat 6: 0.1494
+Cosine Similarity antara Kalimat 5 dan Kalimat 7: 0.1094
+Cosine Similarity antara Kalimat 5 dan Kalimat 8: 0.2142
+Cosine Similarity antara Kalimat 5 dan Kalimat 9: 0.0000
+Cosine Similarity antara Kalimat 5 dan Kalimat 10: 0.0000
+Cosine Similarity antara Kalimat 5 dan Kalimat 11: 0.0000
+Cosine Similarity antara Kalimat 5 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 6 dan Kalimat 7: 0.0321
+Cosine Similarity antara Kalimat 6 dan Kalimat 8: 0.1279
+Cosine Similarity antara Kalimat 6 dan Kalimat 9: 0.0506
+Cosine Similarity antara Kalimat 6 dan Kalimat 10: 0.0000
+Cosine Similarity antara Kalimat 6 dan Kalimat 11: 0.0225
+Cosine Similarity antara Kalimat 6 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 7 dan Kalimat 8: 0.0337
+Cosine Similarity antara Kalimat 7 dan Kalimat 9: 0.0000
+Cosine Similarity antara Kalimat 7 dan Kalimat 10: 0.0000
+Cosine Similarity antara Kalimat 7 dan Kalimat 11: 0.0000
+Cosine Similarity antara Kalimat 7 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 8 dan Kalimat 9: 0.0115
+Cosine Similarity antara Kalimat 8 dan Kalimat 10: 0.0000
+Cosine Similarity antara Kalimat 8 dan Kalimat 11: 0.0204
+Cosine Similarity antara Kalimat 8 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 9 dan Kalimat 10: 0.1523
+Cosine Similarity antara Kalimat 9 dan Kalimat 11: 0.0753
+Cosine Similarity antara Kalimat 9 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 10 dan Kalimat 11: 0.0582
+Cosine Similarity antara Kalimat 10 dan Kalimat 12: 0.0000
+Cosine Similarity antara Kalimat 11 dan Kalimat 12: 0.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Nama kolom dan indeks untuk DataFrame</span>
+<span class="n">sentence_indices</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">))]</span>
+
+<span class="c1"># Buat DataFrame dari hasil cosine similarity</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">sentence_indices</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">sentence_indices</span><span class="p">)</span>
+
+<span class="c1"># Cetak DataFrame</span>
+<span class="n">df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-19b600ec-4659-4091-904d-281baaeb0c92" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Kalimat 1</th>
+      <th>Kalimat 2</th>
+      <th>Kalimat 3</th>
+      <th>Kalimat 4</th>
+      <th>Kalimat 5</th>
+      <th>Kalimat 6</th>
+      <th>Kalimat 7</th>
+      <th>Kalimat 8</th>
+      <th>Kalimat 9</th>
+      <th>Kalimat 10</th>
+      <th>Kalimat 11</th>
+      <th>Kalimat 12</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Kalimat 1</th>
+      <td>1.000000</td>
+      <td>0.082747</td>
+      <td>0.275214</td>
+      <td>0.104385</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015496</td>
+      <td>0.078051</td>
+      <td>0.134386</td>
+      <td>0.156492</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 2</th>
+      <td>0.082747</td>
+      <td>1.000000</td>
+      <td>0.074757</td>
+      <td>0.402756</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.057166</td>
+      <td>0.061170</td>
+      <td>0.055978</td>
+      <td>0.074650</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 3</th>
+      <td>0.275214</td>
+      <td>0.074757</td>
+      <td>1.000000</td>
+      <td>0.266723</td>
+      <td>0.000000</td>
+      <td>0.049307</td>
+      <td>0.046236</td>
+      <td>0.000000</td>
+      <td>0.042105</td>
+      <td>0.146063</td>
+      <td>0.037435</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 4</th>
+      <td>0.104385</td>
+      <td>0.402756</td>
+      <td>0.266723</td>
+      <td>1.000000</td>
+      <td>0.028209</td>
+      <td>0.089897</td>
+      <td>0.071367</td>
+      <td>0.036554</td>
+      <td>0.089065</td>
+      <td>0.089190</td>
+      <td>0.084359</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 5</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.028209</td>
+      <td>1.000000</td>
+      <td>0.149409</td>
+      <td>0.109428</td>
+      <td>0.214205</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 6</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.049307</td>
+      <td>0.089897</td>
+      <td>0.149409</td>
+      <td>1.000000</td>
+      <td>0.032080</td>
+      <td>0.127922</td>
+      <td>0.050624</td>
+      <td>0.000000</td>
+      <td>0.022504</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 7</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.046236</td>
+      <td>0.071367</td>
+      <td>0.109428</td>
+      <td>0.032080</td>
+      <td>1.000000</td>
+      <td>0.033689</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 8</th>
+      <td>0.015496</td>
+      <td>0.057166</td>
+      <td>0.000000</td>
+      <td>0.036554</td>
+      <td>0.214205</td>
+      <td>0.127922</td>
+      <td>0.033689</td>
+      <td>1.000000</td>
+      <td>0.011455</td>
+      <td>0.000000</td>
+      <td>0.020369</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 9</th>
+      <td>0.078051</td>
+      <td>0.061170</td>
+      <td>0.042105</td>
+      <td>0.089065</td>
+      <td>0.000000</td>
+      <td>0.050624</td>
+      <td>0.000000</td>
+      <td>0.011455</td>
+      <td>1.000000</td>
+      <td>0.152343</td>
+      <td>0.075346</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 10</th>
+      <td>0.134386</td>
+      <td>0.055978</td>
+      <td>0.146063</td>
+      <td>0.089190</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.152343</td>
+      <td>1.000000</td>
+      <td>0.058178</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 11</th>
+      <td>0.156492</td>
+      <td>0.074650</td>
+      <td>0.037435</td>
+      <td>0.084359</td>
+      <td>0.000000</td>
+      <td>0.022504</td>
+      <td>0.000000</td>
+      <td>0.020369</td>
+      <td>0.075346</td>
+      <td>0.058178</td>
+      <td>1.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>Kalimat 12</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+      
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-19b600ec-4659-4091-904d-281baaeb0c92')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+      
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+    
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-19b600ec-4659-4091-904d-281baaeb0c92 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-19b600ec-4659-4091-904d-281baaeb0c92');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+  
+    </div>
+  </div>
+  </div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Nama kolom dan indeks untuk DataFrame</span>
+<span class="n">sentence_indices</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">))]</span>
+
+<span class="c1"># Buat DataFrame dari hasil cosine similarity</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">sentence_indices</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">sentence_indices</span><span class="p">)</span>
+
+<span class="c1"># Membuat grafik matriks</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">cax</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">matshow</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;coolwarm&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">cax</span><span class="p">)</span>
+
+<span class="c1"># Memberi label pada sumbu X dan Y</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan nilai similarity pada matriks</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)):</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">iat</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="p">]</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/1b8befe39ef281ea543b8970143d3cadc3b53c57cc90b00426509f7865979012.png" src="_images/1b8befe39ef281ea543b8970143d3cadc3b53c57cc90b00426509f7865979012.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Buat grafik dari matriks similarity</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+
+<span class="c1"># Tambahkan simpul (node) ke grafik yang mewakili setiap kalimat</span>
+<span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+
+<span class="c1"># Tambahkan tepi (edge) antara kalimat berdasarkan similarity</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">)):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span>  <span class="c1"># Mengambil similarity dari DataFrame</span>
+        <span class="k">if</span> <span class="n">similarity</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">sentences</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">sentences</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Hitung closeness centrality untuk setiap simpul</span>
+<span class="n">closeness_centrality</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="s1">&#39;weight&#39;</span><span class="p">)</span>
+
+<span class="c1"># Cetak closeness centrality</span>
+<span class="k">for</span> <span class="n">sentence</span><span class="p">,</span> <span class="n">centrality</span> <span class="ow">in</span> <span class="n">closeness_centrality</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Closeness Centrality of </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">centrality</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Closeness Centrality of 
+Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).: 16.4116
+Closeness Centrality of Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.: 11.3630
+Closeness Centrality of &quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.: 13.4380
+Closeness Centrality of Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.: 14.1067
+Closeness Centrality of Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.: 10.1199
+Closeness Centrality of ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.: 14.6472
+Closeness Centrality of Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.: 14.3803
+Closeness Centrality of Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.: 21.9337
+Closeness Centrality of Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.: 18.8023
+Closeness Centrality of Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.: 10.4269
+Closeness Centrality of (dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!: 19.0610
+Closeness Centrality of Lihat: 0.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Buat grafik berarah (DiGraph) berdasarkan similarity_matrix</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>  <span class="c1"># Tambahkan node dengan indeks numerik</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">similarity</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>  <span class="c1"># Pastikan node tidak menghubungkan dirinya sendiri</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+
+<span class="c1"># Hitung closeness centrality</span>
+<span class="n">closeness_centrality</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi closeness centrality</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Atur layout grafik</span>
+<span class="n">node_size</span> <span class="o">=</span> <span class="p">[</span><span class="n">v</span> <span class="o">*</span> <span class="mi">1000</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">closeness_centrality</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>  <span class="c1"># Ubah ukuran node berdasarkan closeness centrality, dengan faktor pengurangan ukuran</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="n">node_size</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Cetak closeness centrality</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Closeness Centrality:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">closeness</span> <span class="ow">in</span> <span class="n">closeness_centrality</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">closeness</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/00d9d5b41063a9ec36273206f9be8f3f97e961c114dc23a0cd1d99d0337756dc.png" src="_images/00d9d5b41063a9ec36273206f9be8f3f97e961c114dc23a0cd1d99d0337756dc.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Closeness Centrality:
+Node 0: 0.6993
+Node 1: 0.6993
+Node 2: 0.7576
+Node 3: 0.9091
+Node 4: 0.5682
+Node 5: 0.6993
+Node 6: 0.6061
+Node 7: 0.7576
+Node 8: 0.7576
+Node 9: 0.6494
+Node 10: 0.7576
+Node 11: 0.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#membangun sebuah graf yang merepresentasikan hubungan antara kalimat dalam teks berdasarkan kemiripan (similarity) antara kalimat-kalimat tersebut.</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Buat grafik dari matriks similarity</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+
+<span class="c1"># Tambahkan simpul (node) ke grafik yang mewakili setiap kalimat</span>
+<span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+
+<span class="c1"># Tambahkan tepi (edge) antara kalimat berdasarkan similarity</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">)):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span>  <span class="c1"># Mengambil similarity dari DataFrame</span>
+        <span class="k">if</span> <span class="n">similarity</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">sentences</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">sentences</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Hitung closeness centrality untuk setiap simpul</span>
+<span class="n">closeness_centrality</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="s1">&#39;weight&#39;</span><span class="p">)</span>
+
+<span class="c1"># Cetak closeness centrality</span>
+<span class="k">for</span> <span class="n">sentence</span><span class="p">,</span> <span class="n">centrality</span> <span class="ow">in</span> <span class="n">closeness_centrality</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Closeness Centrality of </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">centrality</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Closeness Centrality of 
+Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).: 16.4116
+Closeness Centrality of Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.: 11.3630
+Closeness Centrality of &quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.: 13.4380
+Closeness Centrality of Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.: 14.1067
+Closeness Centrality of Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.: 10.1199
+Closeness Centrality of ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.: 14.6472
+Closeness Centrality of Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.: 14.3803
+Closeness Centrality of Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.: 21.9337
+Closeness Centrality of Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.: 18.8023
+Closeness Centrality of Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.: 10.4269
+Closeness Centrality of (dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!: 19.0610
+Closeness Centrality of Lihat: 0.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#membuat grafik berarah (Directed Graph - DiGraph) yang merepresentasikan hubungan antara kalimat-kalimat dalam teks berdasarkan kemiripan (cosine similarity)</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Buat grafik berarah (DiGraph) berdasarkan similarity_matrix</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>  <span class="c1"># Tambahkan node dengan indeks numerik</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">similarity</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>  <span class="c1"># Pastikan node tidak menghubungkan dirinya sendiri</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+
+<span class="c1"># Hitung closeness centrality</span>
+<span class="n">closeness_centrality</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi closeness centrality</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Atur layout grafik</span>
+<span class="n">node_size</span> <span class="o">=</span> <span class="p">[</span><span class="n">v</span> <span class="o">*</span> <span class="mi">1000</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">closeness_centrality</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>  <span class="c1"># Ubah ukuran node berdasarkan closeness centrality, dengan faktor pengurangan ukuran</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="n">node_size</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Cetak closeness centrality dari yang tertinggi hingga terendah</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Closeness Centrality (Dari Tertinggi ke Terendah):&quot;</span><span class="p">)</span>
+<span class="n">sorted_closeness</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">closeness_centrality</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">closeness</span> <span class="ow">in</span> <span class="n">sorted_closeness</span><span class="p">:</span>
+    <span class="n">sentence</span> <span class="o">=</span> <span class="n">sentences</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>  <span class="c1"># Akses kalimat yang sesuai dengan node</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">: Closeness Centrality </span><span class="si">{</span><span class="n">closeness</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat: </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/757e0330aefcd76fc4979730d7169ab08fe695286f8930ef14e1ac0d92224712.png" src="_images/757e0330aefcd76fc4979730d7169ab08fe695286f8930ef14e1ac0d92224712.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Closeness Centrality (Dari Tertinggi ke Terendah):
+Node 3: Closeness Centrality 0.9091
+Kalimat: Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.
+
+Node 2: Closeness Centrality 0.7576
+Kalimat: &quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.
+
+Node 7: Closeness Centrality 0.7576
+Kalimat: Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.
+
+Node 8: Closeness Centrality 0.7576
+Kalimat: Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.
+
+Node 10: Closeness Centrality 0.7576
+Kalimat: (dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!
+
+Node 0: Closeness Centrality 0.6993
+Kalimat: 
+Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).
+
+Node 1: Closeness Centrality 0.6993
+Kalimat: Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.
+
+Node 5: Closeness Centrality 0.6993
+Kalimat: ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.
+
+Node 9: Closeness Centrality 0.6494
+Kalimat: Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.
+
+Node 6: Closeness Centrality 0.6061
+Kalimat: Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.
+
+Node 4: Closeness Centrality 0.5682
+Kalimat: Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.
+
+Node 11: Closeness Centrality 0.0000
+Kalimat: Lihat
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+
+<span class="c1"># Matriks TF-IDF telah dihitung sebelumnya (tfidf_matrix)</span>
+<span class="c1"># Hitung cosine similarity antara semua pasangan kalimat</span>
+<span class="n">similarity_matrix</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">tfidf_matrix</span><span class="p">,</span> <span class="n">tfidf_matrix</span><span class="p">)</span>
+
+<span class="c1"># Buat grafik berarah (DiGraph) berdasarkan similarity_matrix</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>  <span class="c1"># Tambahkan node dengan indeks numerik</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+        <span class="n">similarity</span> <span class="o">=</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">similarity</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>  <span class="c1"># Pastikan node tidak menghubungkan dirinya sendiri</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>  <span class="c1"># Gunakan similarity sebagai weight</span>
+
+<span class="c1"># Hitung PageRank centrality</span>
+<span class="n">pagerank_centrality</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">pagerank</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;weight&#39;</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi PageRank centrality</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Atur layout grafik</span>
+<span class="n">node_size</span> <span class="o">=</span> <span class="p">[</span><span class="n">v</span> <span class="o">*</span> <span class="mi">10000</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">pagerank_centrality</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>  <span class="c1"># Ubah ukuran node berdasarkan PageRank, dengan faktor pengurangan ukuran</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="n">node_size</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Cetak PageRank centrality dari yang tertinggi hingga terendah</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;PageRank Centrality (Dari Tertinggi ke Terendah):&quot;</span><span class="p">)</span>
+<span class="n">sorted_pagerank</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">pagerank_centrality</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">pagerank</span> <span class="ow">in</span> <span class="n">sorted_pagerank</span><span class="p">:</span>
+    <span class="n">sentence</span> <span class="o">=</span> <span class="n">sentences</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>  <span class="c1"># Akses kalimat yang sesuai dengan node</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">: PageRank Centrality </span><span class="si">{</span><span class="n">pagerank</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat: </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/b6bd712a999664fc2269583270779dd0c9e43ccc69598930c7cf7109a09eb3a0.png" src="_images/b6bd712a999664fc2269583270779dd0c9e43ccc69598930c7cf7109a09eb3a0.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>PageRank Centrality (Dari Tertinggi ke Terendah):
+Node 3: PageRank Centrality 0.1546
+Kalimat: Ya saya memberi informasi saja bahwa saya ikut kontestasi politik,&quot; kata Mahfud usai sowan dilansir detikJateng, Selasa (14/11/2023).Baca juga: Mahfud Sowan ke Gus Mus: Semua Menjadi Ringan dan SegarMahfud juga sempat memohon doa kepada Gus Mus.
+
+Node 2: PageRank Centrality 0.1161
+Kalimat: &quot;Saya kan sering ke sini (Leteh, Rembang), sowan Gus Mus.
+
+Node 0: PageRank Centrality 0.1056
+Kalimat: 
+Jakarta - Cawapres Ganjar Pranowo, Mahfud Md berkunjung ke kediaman Gus Mus, di Kelurahan Leteh, Rembang, Jawa Tengah (Jateng).
+
+Node 1: PageRank Centrality 0.1009
+Kalimat: Mahfud mengaku memberi informasi bahwa dirinya ikut kontestasi politik kepada Gus Mus.
+
+Node 9: PageRank Centrality 0.0823
+Kalimat: Sesekali terdengar tawa lepas dari dalam ruang tamu kediaman Gus Mus.Baca selengkapnya di sini.
+
+Node 4: PageRank Centrality 0.0779
+Kalimat: Tetapi doa itu tidak dimaksudkan untuk meminta dukungan, melainkan untuk kebaikan Bangsa Indonesia.
+
+Node 7: PageRank Centrality 0.0777
+Kalimat: Yang didukung adalah kebaikan Indonesia sehingga doanya untuk Indonesia agar lebih baik, itu yang diminta kepada Allah tadi,&quot; ungkap Mahfud.Pertemuan dilakukan secara tertutup terpantau berlangsung selama satu jam lebih.
+
+Node 5: PageRank Centrality 0.0769
+Kalimat: ADVERTISEMENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCROLL TO CONTINUE WITH CONTENT
+
+&quot;Saya minta doa yang terbaik bagi bangsa dan negara Indonesia.
+
+Node 8: PageRank Centrality 0.0751
+Kalimat: Mahfud dan rombongan tiba pukul 18.32 WIB dan berpamitan pulang pukul 19.39 WIB.Dari luar kediaman Gus Mus, keduanya terdengar berbincang asyik.
+
+Node 10: PageRank Centrality 0.0711
+Kalimat: (dek/dek)
+
+
+mahfud mahfud md gus mus pilpres 2024 
+
+
+
+Pantau Pemilu
+Cek rekam jejak, visi misi, profil, hingga berita terkini pasangan Capres dan Cawapres favoritmu di Pemilu 2024 sekarang!
+
+Node 6: PageRank Centrality 0.0485
+Kalimat: Saya tadi berdoa, ya berdoa bersama-sama, tetapi tidak ada urusan dukung-mendukung atau apa.
+
+Node 11: PageRank Centrality 0.0135
+Kalimat: Lihat
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Hitung betweenness centrality</span>
+<span class="n">betweenness</span><span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">betweenness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Cetak DataFrame</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;DataFrame Betweenness Centrality:&quot;</span><span class="p">)</span>
+<span class="n">sorted_betweenness</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">betweenness</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">item</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">between</span> <span class="ow">in</span> <span class="n">sorted_betweenness</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">between</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DataFrame Betweenness Centrality:
+Node 3: 0.1029
+Node 7: 0.0588
+Node 2: 0.0421
+Node 5: 0.0299
+Node 8: 0.0181
+Node 10: 0.0181
+Node 6: 0.0087
+Node 0: 0.0062
+Node 1: 0.0062
+Node 4: 0.0000
+Node 9: 0.0000
+Node 11: 0.0000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Cetak betweenness</span>
+<span class="n">top_3_between</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">sorted_betweenness</span><span class="o">.</span><span class="n">items</span><span class="p">())[:</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="c1"># Memasukkan 3 kalimat teratas dan informasi node ke dalam DataFrame</span>
+<span class="n">databw</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Node&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">node</span> <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">top_3_between</span><span class="p">],</span>
+    <span class="s2">&quot;Between&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">between</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">between</span> <span class="ow">in</span> <span class="n">top_3_between</span><span class="p">],</span>
+    <span class="s2">&quot;Kalimat&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">sentences</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">top_3_between</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="n">df_top_3bw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">databw</span><span class="p">)</span>
+
+<span class="c1"># Cetak DataFrame</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tiga Node Between Teratas&quot;</span><span class="p">)</span>
+<span class="n">df_top_3bw</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Tiga Node Between Teratas
+</pre></div>
+</div>
+<div class="output text_html">
+  <div id="df-f78d955f-f98c-4866-92a1-89b8c2bef766" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Node</th>
+      <th>Between</th>
+      <th>Kalimat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3</td>
+      <td>0.102900</td>
+      <td>Ya saya memberi informasi saja bahwa saya ikut...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7</td>
+      <td>0.058788</td>
+      <td>Yang didukung adalah kebaikan Indonesia sehing...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>0.042121</td>
+      <td>"Saya kan sering ke sini (Leteh, Rembang), sow...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+      
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f78d955f-f98c-4866-92a1-89b8c2bef766')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+      
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+    
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-f78d955f-f98c-4866-92a1-89b8c2bef766 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-f78d955f-f98c-4866-92a1-89b8c2bef766');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+  
+    </div>
+  </div>
+  </div></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="LDA_Topic_Modelling.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">LDA_Topic_Modelling</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Arshell
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
