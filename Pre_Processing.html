@@ -421,18 +421,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting Sastrawi
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading Sastrawi-1.0.1-py2.py3-none-any.whl (209 kB)
-?25l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/209.7 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
-     ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">92.2/209.7 kB</span> <span class=" -Color -Color-Red">2.5 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">209.7/209.7 kB</span> <span class=" -Color -Color-Red">3.6 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25h
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: Sastrawi
-Successfully installed Sastrawi-1.0.1
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: Sastrawi in /usr/local/lib/python3.10/dist-packages (1.0.1)
 </pre></div>
 </div>
 </div>
@@ -461,11 +450,9 @@ Successfully installed Sastrawi-1.0.1
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package stopwords to /root/nltk_data...
-[nltk_data]   Unzipping corpora/stopwords.zip.
+[nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package punkt to /root/nltk_data...
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data]   Unzipping tokenizers/punkt.zip.
+[nltk_data]   Package punkt is already up-to-date!
 </pre></div>
 </div>
 </div>
@@ -479,7 +466,7 @@ Successfully installed Sastrawi-1.0.1
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-06e06a0f-a6a1-42f9-b382-63a90b39c667" class="colab-df-container">
+  <div id="df-cca9b317-7d3e-473d-abe2-a13e41514434" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -613,7 +600,7 @@ Successfully installed Sastrawi-1.0.1
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-06e06a0f-a6a1-42f9-b382-63a90b39c667')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-cca9b317-7d3e-473d-abe2-a13e41514434')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -665,12 +652,12 @@ Successfully installed Sastrawi-1.0.1
 
     <script>
       const buttonEl =
-        document.querySelector('#df-06e06a0f-a6a1-42f9-b382-63a90b39c667 button.colab-df-convert');
+        document.querySelector('#df-cca9b317-7d3e-473d-abe2-a13e41514434 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-06e06a0f-a6a1-42f9-b382-63a90b39c667');
+        const element = document.querySelector('#df-cca9b317-7d3e-473d-abe2-a13e41514434');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -693,7 +680,7 @@ Successfully installed Sastrawi-1.0.1
   </div>
   </div></div>
 </div>
-<p>####Punctuation process
+<p>##Punctuation process
 Punctuation process adalah salah satu tahap dalam pre-processing data yang melibatkan penghapusan tanda baca dari teks atau dataset. Tanda baca seperti titik, koma, tanda tanya, dan lainnya dianggap tidak memberikan informasi penting.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -751,7 +738,7 @@ Name: data_clean, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>####tokenizing
+<p>##tokenizing
 Tokenizing adalah proses pemisahan teks atau dokumen menjadi unit-unit diskrit yang lebih kecil yang disebut sebagai token.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -781,7 +768,7 @@ Name: Tokenizing, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>####stopword
+<p>##stopword
 Stopword adalah kata-kata umum yang sering muncul dalam suatu teks dan dianggap memiliki sedikit nilai informatif atau kontribusi terhadap pemahaman makna. seperti ke,di,dan,atau dll.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -815,7 +802,7 @@ Name: stopword, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>####tf-idf
+<p>##tf-idf
 Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang digunakan untuk mengevaluasi seberapa penting suatu kata dalam suatu dokumen dalam konteks koleksi dokumen. biasanya digunakan untuk memberikan bobot pada setiap kata-kata dalam dokumen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -836,7 +823,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-45d198f4-cd89-48f4-8564-072f09348689" class="colab-df-container">
+  <div id="df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1150,7 +1137,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-45d198f4-cd89-48f4-8564-072f09348689')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1202,12 +1189,12 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 
     <script>
       const buttonEl =
-        document.querySelector('#df-45d198f4-cd89-48f4-8564-072f09348689 button.colab-df-convert');
+        document.querySelector('#df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-45d198f4-cd89-48f4-8564-072f09348689');
+        const element = document.querySelector('#df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1237,7 +1224,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 </div>
 </div>
 </div>
-<p>####term frequensi
+<p>##term frequensi
 Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul dalam suatu dokumen. Tujuan dari menghitung term frequency adalah untuk memberikan bobot pada kata-kata dalam suatu dokumen sehingga kita dapat memahami seberapa penting atau relevan kata tersebut terhadap dokumen tersebut.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1259,7 +1246,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c2b37796-5816-491b-8242-b5dcb895924d" class="colab-df-container">
+  <div id="df-c104135f-78ce-4e82-a980-733b3d998106" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1573,7 +1560,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-c2b37796-5816-491b-8242-b5dcb895924d')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c104135f-78ce-4e82-a980-733b3d998106')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1625,12 +1612,12 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 
     <script>
       const buttonEl =
-        document.querySelector('#df-c2b37796-5816-491b-8242-b5dcb895924d button.colab-df-convert');
+        document.querySelector('#df-c104135f-78ce-4e82-a980-733b3d998106 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-c2b37796-5816-491b-8242-b5dcb895924d');
+        const element = document.querySelector('#df-c104135f-78ce-4e82-a980-733b3d998106');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1660,7 +1647,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 </div>
 </div>
 </div>
-<p>####logarithm frequensi
+<p>##logarithm frequensi
 Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dalam analisis teks atau pemrosesan bahasa alami untuk mengukur seberapa sering suatu kata muncul dalam suatu dokumen atau korpus dengan menggunakan skala logaritmik.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1675,7 +1662,7 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-60bc94bc-2a8b-43b2-9cc6-6cea8c374852" class="colab-df-container">
+  <div id="df-2c1e557b-af9a-4a00-9a19-d9ee33398d31" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1989,7 +1976,7 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-60bc94bc-2a8b-43b2-9cc6-6cea8c374852')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-2c1e557b-af9a-4a00-9a19-d9ee33398d31')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -2041,12 +2028,12 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
 
     <script>
       const buttonEl =
-        document.querySelector('#df-60bc94bc-2a8b-43b2-9cc6-6cea8c374852 button.colab-df-convert');
+        document.querySelector('#df-2c1e557b-af9a-4a00-9a19-d9ee33398d31 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-60bc94bc-2a8b-43b2-9cc6-6cea8c374852');
+        const element = document.querySelector('#df-2c1e557b-af9a-4a00-9a19-d9ee33398d31');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
