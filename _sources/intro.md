@@ -1,11 +1,10 @@
-# Welcome to your Jupyter Book
+# Kumpulan Tugas Pencarian dan Penambangan Web
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Nama : Arshelia Romadhona
+NIM : 200411100053
+Kelas : IF7B
 
-Check out the content pages bundled with this sample book to see more.
+Mata kuliah ini biasanya mencakup konsep-konsep seperti teknik crawling (pengumpulan data dari web), analisis teks, pembelajaran mesin, pengelolaan basis data, dan aspek-aspek lain yang terkait dengan penambangan dan pencarian informasi di lingkungan web. Siswa biasanya juga diajarkan cara mengembangkan algoritma pencarian atau aplikasi penambangan web yang efektif.
 
 ```{tableofcontents}
 ```
