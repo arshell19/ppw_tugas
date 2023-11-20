@@ -406,18 +406,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="web-crowling">
 <h1>Web_Crowling<a class="headerlink" href="#web-crowling" title="Permalink to this heading">#</a></h1>
-<p>#Pengertian Crawling?
-Crawling adalah proses yang dilakukan oleh bot atau web crawler untuk mengumpulkan informasi dari berbagai situs web secara otomatis. Aktivitas ini merupakan bagian dari proses web scraping atau pengambilan informasi dari halaman web.
-Tujuan Crawling?</p>
-<ol class="arabic simple">
-<li><p>Pengindeksan Mesin Pencari: Salah satu tujuan utama dari crawling adalah memungkinkan mesin pencari untuk mengumpulkan dan mengindeks informasi dari berbagai situs web di seluruh internet. Mesin pencari seperti Google menggunakan web crawler untuk menjelajahi halaman-halaman web dan mengumpulkan informasi yang kemudian diindeks, sehingga pengguna dapat menemukan konten yang relevan saat melakukan pencarian.</p></li>
-<li><p>Pemantauan Perubahan: Crawling juga dapat digunakan untuk memantau perubahan pada situs web tertentu. Misalnya, perusahaan atau individu dapat menggunakan web crawler untuk secara otomatis memeriksa perubahan pada halaman-halaman web, mengumpulkan data terbaru, dan memberikan notifikasi jika terjadi perubahan yang signifikan.</p></li>
-<li><p>Penambangan Data: Crawling merupakan langkah awal dalam proses penambangan data di web (web data mining). Data yang dikumpulkan dari situs web dapat dianalisis lebih lanjut untuk mendapatkan wawasan atau informasi yang berguna. Ini dapat melibatkan ekstraksi informasi tertentu, analisis sentimen, atau identifikasi tren.</p></li>
-<li><p>Analisis dan Riset Pasar: Crawling dapat digunakan dalam analisis pasar dan riset untuk mengumpulkan data tentang produk, harga, ulasan pelanggan, dan informasi lainnya dari situs-situs web e-commerce atau sumber informasi lainnya. Ini membantu perusahaan dalam membuat keputusan strategis.</p></li>
-<li><p>Pengumpulan Berita atau Konten: Beberapa organisasi menggunakan crawling untuk mengumpulkan dan menyaring berita atau konten tertentu dari berbagai sumber. Ini dapat membantu dalam membuat agregator berita atau menyediakan konten yang relevan untuk audiens tertentu.</p></li>
-<li><p>Monitoring Kinerja dan SEO: Web crawler dapat digunakan untuk memantau kinerja suatu situs web, seperti waktu respon dan status halaman. Selain itu, crawler dapat membantu dalam memeriksa faktor-faktor SEO (Search Engine Optimization), seperti struktur tautan dan kata kunci, untuk membantu situs web mendapatkan peringkat yang lebih baik di mesin pencari.</p></li>
-<li><p>Pemantauan Kompetitor: Beberapa organisasi menggunakan crawling untuk memantau kegiatan pesaing mereka, mengumpulkan informasi tentang produk, harga, promosi, dan strategi lainnya.</p></li>
-</ol>
+<p>Pengertian Crawling?
+Crawling adalah proses yang dilakukan oleh bot atau web crawler untuk mengumpulkan informasi dari berbagai situs web secara otomatis. Aktivitas ini merupakan bagian dari proses web scraping atau pengambilan informasi dari halaman web.</p>
 <p>Beberapa library yang dibutuhkan untuk scrapping data dari situs web.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -486,27 +476,27 @@ Tujuan Crawling?</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">gaierror</span><span class="g g-Whitespace">                                  </span>Traceback (most recent call last)
+<span class="ne">OSError</span><span class="g g-Whitespace">                                   </span>Traceback (most recent call last)
 <span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connection.py</span> in <span class="ni">_new_conn</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">    </span><span class="mi">202</span>         <span class="k">try</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">203</span>             <span class="n">sock</span> <span class="o">=</span> <span class="n">connection</span><span class="o">.</span><span class="n">create_connection</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">204</span>                 <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_dns_host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">port</span><span class="p">),</span>
 
 <span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py</span> in <span class="ni">create_connection</span><span class="nt">(address, timeout, source_address, socket_options)</span>
-<span class="g g-Whitespace">     </span><span class="mi">59</span> 
-<span class="ne">---&gt; </span><span class="mi">60</span>     <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">socket</span><span class="o">.</span><span class="n">getaddrinfo</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">port</span><span class="p">,</span> <span class="n">family</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">):</span>
-<span class="g g-Whitespace">     </span><span class="mi">61</span>         <span class="n">af</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">,</span> <span class="n">canonname</span><span class="p">,</span> <span class="n">sa</span> <span class="o">=</span> <span class="n">res</span>
+<span class="g g-Whitespace">     </span><span class="mi">84</span>         <span class="k">try</span><span class="p">:</span>
+<span class="ne">---&gt; </span><span class="mi">85</span>             <span class="k">raise</span> <span class="n">err</span>
+<span class="g g-Whitespace">     </span><span class="mi">86</span>         <span class="k">finally</span><span class="p">:</span>
 
-<span class="nn">/usr/lib/python3.10/socket.py</span> in <span class="ni">getaddrinfo</span><span class="nt">(host, port, family, type, proto, flags)</span>
-<span class="g g-Whitespace">    </span><span class="mi">954</span>     <span class="n">addrlist</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="ne">--&gt; </span><span class="mi">955</span>     <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">_socket</span><span class="o">.</span><span class="n">getaddrinfo</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">port</span><span class="p">,</span> <span class="n">family</span><span class="p">,</span> <span class="nb">type</span><span class="p">,</span> <span class="n">proto</span><span class="p">,</span> <span class="n">flags</span><span class="p">):</span>
-<span class="g g-Whitespace">    </span><span class="mi">956</span>         <span class="n">af</span><span class="p">,</span> <span class="n">socktype</span><span class="p">,</span> <span class="n">proto</span><span class="p">,</span> <span class="n">canonname</span><span class="p">,</span> <span class="n">sa</span> <span class="o">=</span> <span class="n">res</span>
+<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py</span> in <span class="ni">create_connection</span><span class="nt">(address, timeout, source_address, socket_options)</span>
+<span class="g g-Whitespace">     </span><span class="mi">72</span>                 <span class="n">sock</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">source_address</span><span class="p">)</span>
+<span class="ne">---&gt; </span><span class="mi">73</span>             <span class="n">sock</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">sa</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">74</span>             <span class="c1"># Break explicitly a reference cycle</span>
 
-<span class="ne">gaierror</span>: [Errno -2] Name or service not known
+<span class="ne">OSError</span>: [Errno 101] Network is unreachable
 
 <span class="n">The</span> <span class="n">above</span> <span class="n">exception</span> <span class="n">was</span> <span class="n">the</span> <span class="n">direct</span> <span class="n">cause</span> <span class="n">of</span> <span class="n">the</span> <span class="n">following</span> <span class="n">exception</span><span class="p">:</span>
 
-<span class="ne">NameResolutionError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="ne">NewConnectionError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
 <span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py</span> in <span class="ni">urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, preload_content, decode_content, **response_kw)</span>
 <span class="g g-Whitespace">    </span><span class="mi">790</span>             <span class="c1"># Make the request on the HTTPConnection object</span>
 <span class="ne">--&gt; </span><span class="mi">791</span>             <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span>
@@ -533,11 +523,11 @@ Tujuan Crawling?</p>
 <span class="g g-Whitespace">    </span><span class="mi">612</span>         <span class="n">server_hostname</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span>
 
 <span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connection.py</span> in <span class="ni">_new_conn</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">209</span>         <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">gaierror</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">210</span>             <span class="k">raise</span> <span class="n">NameResolutionError</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="p">,</span> <span class="bp">self</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">e</span>
-<span class="g g-Whitespace">    </span><span class="mi">211</span>         <span class="k">except</span> <span class="n">SocketTimeout</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">217</span>         <span class="k">except</span> <span class="ne">OSError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">218</span>             <span class="k">raise</span> <span class="n">NewConnectionError</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">219</span>                 <span class="bp">self</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Failed to establish a new connection: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span>
 
-<span class="ne">NameResolutionError</span>: &lt;urllib3.connection.HTTPSConnection object at 0x784ab699b100&gt;: Failed to resolve &#39;pta.trunojoyo.ac.id&#39; ([Errno -2] Name or service not known)
+<span class="ne">NewConnectionError</span>: &lt;urllib3.connection.HTTPSConnection object at 0x7caf03c0b100&gt;: Failed to establish a new connection: [Errno 101] Network is unreachable
 
 <span class="n">The</span> <span class="n">above</span> <span class="n">exception</span> <span class="n">was</span> <span class="n">the</span> <span class="n">direct</span> <span class="n">cause</span> <span class="n">of</span> <span class="n">the</span> <span class="n">following</span> <span class="n">exception</span><span class="p">:</span>
 
@@ -557,7 +547,7 @@ Tujuan Crawling?</p>
 <span class="ne">--&gt; </span><span class="mi">515</span>             <span class="k">raise</span> <span class="n">MaxRetryError</span><span class="p">(</span><span class="n">_pool</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">reason</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">reason</span>  <span class="c1"># type: ignore[arg-type]</span>
 <span class="g g-Whitespace">    </span><span class="mi">516</span> 
 
-<span class="ne">MaxRetryError</span>: HTTPSConnectionPool(host=&#39;pta.trunojoyo.ac.id&#39;, port=443): Max retries exceeded with url: /c_search/byprod/28/ (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x784ab699b100&gt;: Failed to resolve &#39;pta.trunojoyo.ac.id&#39; ([Errno -2] Name or service not known)&quot;))
+<span class="ne">MaxRetryError</span>: HTTPSConnectionPool(host=&#39;pta.trunojoyo.ac.id&#39;, port=443): Max retries exceeded with url: /c_search/byprod/28/ (Caused by NewConnectionError(&#39;&lt;urllib3.connection.HTTPSConnection object at 0x7caf03c0b100&gt;: Failed to establish a new connection: [Errno 101] Network is unreachable&#39;))
 
 <span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
 
@@ -604,7 +594,7 @@ Tujuan Crawling?</p>
 <span class="g g-Whitespace">    </span><span class="mi">520</span><span class="s2"> </span>
 <span class="g g-Whitespace">    </span><span class="mi">521</span><span class="s2">         except ClosedPoolError as e:</span>
 
-<span class="ne">ConnectionError</span>: HTTPSConnectionPool(host=&#39;pta.trunojoyo.ac.id&#39;, port=443): Max retries exceeded with url: /c_search/byprod/28/ (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x784ab699b100&gt;: Failed to resolve &#39;pta.trunojoyo.ac.id&#39; ([Errno -2] Name or service not known)&quot;))
+<span class="ne">ConnectionError</span>: HTTPSConnectionPool(host=&#39;pta.trunojoyo.ac.id&#39;, port=443): Max retries exceeded with url: /c_search/byprod/28/ (Caused by NewConnectionError(&#39;&lt;urllib3.connection.HTTPSConnection object at 0x7caf03c0b100&gt;: Failed to establish a new connection: [Errno 101] Network is unreachable&#39;))
 </pre></div>
 </div>
 </div>
