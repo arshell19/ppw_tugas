@@ -406,6 +406,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="lda-topic-modelling">
 <h1>LDA_Topic_Modelling<a class="headerlink" href="#lda-topic-modelling" title="Permalink to this heading">#</a></h1>
+<p>Latent Dirichlet Allocation (LDA) adalah metode dalam pembelajaran mesin yang digunakan untuk melakukan topic modeling, yaitu mengidentifikasi topik atau tema-tema yang muncul dalam koleksi dokumen atau korpus teks. LDA adalah model generatif probabilistik yang dirancang untuk menggambarkan struktur topik dalam sebuah koleksi dokumen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">LatentDirichletAllocation</span>
@@ -424,7 +425,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-4eebc4a8-4853-43c9-a03c-b547e24d3220" class="colab-df-container">
+  <div id="df-fbc56ea4-445a-410a-a838-fade9de7e596" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -738,7 +739,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-4eebc4a8-4853-43c9-a03c-b547e24d3220')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-fbc56ea4-445a-410a-a838-fade9de7e596')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -790,12 +791,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-4eebc4a8-4853-43c9-a03c-b547e24d3220 button.colab-df-convert');
+        document.querySelector('#df-fbc56ea4-445a-410a-a838-fade9de7e596 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-4eebc4a8-4853-43c9-a03c-b547e24d3220');
+        const element = document.querySelector('#df-fbc56ea4-445a-410a-a838-fade9de7e596');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -827,7 +828,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-ddd1d666-85c3-42aa-9af7-3634a1e16a47" class="colab-df-container">
+  <div id="df-210e6aa7-fa79-4d03-9a87-54c5543e60e2" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1141,7 +1142,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-ddd1d666-85c3-42aa-9af7-3634a1e16a47')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-210e6aa7-fa79-4d03-9a87-54c5543e60e2')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1193,12 +1194,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-ddd1d666-85c3-42aa-9af7-3634a1e16a47 button.colab-df-convert');
+        document.querySelector('#df-210e6aa7-fa79-4d03-9a87-54c5543e60e2 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-ddd1d666-85c3-42aa-9af7-3634a1e16a47');
+        const element = document.querySelector('#df-210e6aa7-fa79-4d03-9a87-54c5543e60e2');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1221,6 +1222,7 @@ document.write(`
   </div>
   </div></div>
 </div>
+<p>menentukan proporsi setiap topik pada dokumen</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">k</span> <span class="o">=</span> <span class="mi">4</span>
@@ -1245,7 +1247,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-964585d1-cb3c-4de1-a9a7-d6b1c20da26f" class="colab-df-container">
+  <div id="df-fc27a4a7-0c78-435e-8a68-032bf62dbcbd" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1275,25 +1277,25 @@ document.write(`
     <tr>
       <th>0</th>
       <td>materi struktur dasar algoritma pemrograman ma...</td>
-      <td>0.051332</td>
+      <td>0.000698</td>
+      <td>0.997907</td>
       <td>0.000697</td>
-      <td>0.947273</td>
       <td>0.000697</td>
     </tr>
     <tr>
       <th>1</th>
       <td>mata pelajaran sistem komputer siswa memahami ...</td>
       <td>0.000485</td>
-      <td>0.000485</td>
       <td>0.998546</td>
+      <td>0.000485</td>
       <td>0.000485</td>
     </tr>
     <tr>
       <th>2</th>
       <td>penelitian bertujuan pengaruh media pembelajar...</td>
-      <td>0.104869</td>
-      <td>0.808542</td>
-      <td>0.085666</td>
+      <td>0.000923</td>
+      <td>0.051499</td>
+      <td>0.946656</td>
       <td>0.000923</td>
     </tr>
     <tr>
@@ -1307,9 +1309,9 @@ document.write(`
     <tr>
       <th>4</th>
       <td>mata pelajaran pemrograman dasar salah mata pe...</td>
-      <td>0.186824</td>
       <td>0.000859</td>
-      <td>0.811457</td>
+      <td>0.836911</td>
+      <td>0.161371</td>
       <td>0.000859</td>
     </tr>
     <tr>
@@ -1324,41 +1326,41 @@ document.write(`
       <th>345</th>
       <td>abstrak penelitian bertujuan mengembangkan per...</td>
       <td>0.000773</td>
-      <td>0.387946</td>
-      <td>0.610508</td>
-      <td>0.000773</td>
+      <td>0.170426</td>
+      <td>0.242307</td>
+      <td>0.586494</td>
     </tr>
     <tr>
       <th>346</th>
       <td>siswa mengalami kesulitan materi routing mata ...</td>
-      <td>0.880206</td>
-      <td>0.000639</td>
-      <td>0.118515</td>
+      <td>0.988467</td>
+      <td>0.010254</td>
+      <td>0.000640</td>
       <td>0.000640</td>
     </tr>
     <tr>
       <th>347</th>
       <td>abstrak penelitian bertujuan menumbuhkan daya ...</td>
       <td>0.000882</td>
-      <td>0.000882</td>
       <td>0.997354</td>
+      <td>0.000882</td>
       <td>0.000882</td>
     </tr>
     <tr>
       <th>348</th>
       <td>penelitian latar belakangi perangkat pembelaja...</td>
-      <td>0.183256</td>
-      <td>0.257452</td>
-      <td>0.558584</td>
-      <td>0.000707</td>
+      <td>0.070928</td>
+      <td>0.057519</td>
+      <td>0.236954</td>
+      <td>0.634600</td>
     </tr>
     <tr>
       <th>349</th>
       <td>penelitian bertujuan menghasilkan perangkat pe...</td>
       <td>0.000874</td>
-      <td>0.509159</td>
-      <td>0.489092</td>
       <td>0.000874</td>
+      <td>0.369575</td>
+      <td>0.628676</td>
     </tr>
   </tbody>
 </table>
@@ -1367,7 +1369,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-964585d1-cb3c-4de1-a9a7-d6b1c20da26f')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-fc27a4a7-0c78-435e-8a68-032bf62dbcbd')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1419,12 +1421,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-964585d1-cb3c-4de1-a9a7-d6b1c20da26f button.colab-df-convert');
+        document.querySelector('#df-fc27a4a7-0c78-435e-8a68-032bf62dbcbd button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-964585d1-cb3c-4de1-a9a7-d6b1c20da26f');
+        const element = document.querySelector('#df-fc27a4a7-0c78-435e-8a68-032bf62dbcbd');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1463,7 +1465,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-645d0aff-b201-4b2b-8d31-46252915d2db" class="colab-df-container">
+  <div id="df-7949b164-0f7c-4e1c-9684-cc6a29865e00" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1777,7 +1779,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-645d0aff-b201-4b2b-8d31-46252915d2db')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-7949b164-0f7c-4e1c-9684-cc6a29865e00')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1829,12 +1831,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-645d0aff-b201-4b2b-8d31-46252915d2db button.colab-df-convert');
+        document.querySelector('#df-7949b164-0f7c-4e1c-9684-cc6a29865e00 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-645d0aff-b201-4b2b-8d31-46252915d2db');
+        const element = document.querySelector('#df-7949b164-0f7c-4e1c-9684-cc6a29865e00');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1857,6 +1859,7 @@ document.write(`
   </div>
   </div></div>
 </div>
+<p>menentukan proporsi setiap kata pada setiap topik</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#proporsi kata pada topik</span>
@@ -1867,7 +1870,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-853dbb40-df45-4c5b-92a0-4c5c2e187b7c" class="colab-df-container">
+  <div id="df-00b177a1-3172-452e-90b8-f27645c9ec4f" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1914,97 +1917,97 @@ document.write(`
       <th>0</th>
       <td>0.200000</td>
       <td>0.2</td>
-      <td>24.527288</td>
-      <td>0.200000</td>
-      <td>0.2</td>
-      <td>0.20000</td>
+      <td>22.058983</td>
       <td>0.200000</td>
       <td>0.2</td>
       <td>0.2</td>
-      <td>1.184984</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.200000</td>
       <td>...</td>
-      <td>0.2</td>
       <td>0.20000</td>
-      <td>0.2</td>
+      <td>0.218252</td>
+      <td>0.224547</td>
       <td>1.2</td>
       <td>0.2</td>
       <td>0.2</td>
-      <td>0.200079</td>
-      <td>0.203817</td>
-      <td>0.200078</td>
-      <td>1.191702</td>
+      <td>0.205173</td>
+      <td>1.121221</td>
+      <td>0.204574</td>
+      <td>0.2</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.200000</td>
-      <td>0.2</td>
-      <td>36.353772</td>
-      <td>3.199665</td>
+      <td>0.203919</td>
       <td>1.2</td>
-      <td>0.27763</td>
-      <td>0.200000</td>
+      <td>30.221456</td>
+      <td>0.203055</td>
       <td>0.2</td>
-      <td>1.2</td>
-      <td>0.214598</td>
+      <td>0.2</td>
+      <td>2.2</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.200121</td>
       <td>...</td>
-      <td>0.2</td>
-      <td>0.20676</td>
+      <td>1.19972</td>
+      <td>1.167910</td>
+      <td>4.961450</td>
       <td>0.2</td>
       <td>0.2</td>
       <td>1.2</td>
+      <td>0.200000</td>
+      <td>0.200000</td>
+      <td>0.200459</td>
       <td>0.2</td>
-      <td>12.199459</td>
-      <td>1.185257</td>
-      <td>15.198529</td>
-      <td>0.208298</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.200205</td>
+      <td>0.201391</td>
+      <td>0.2</td>
+      <td>37.461116</td>
+      <td>4.196945</td>
       <td>1.2</td>
-      <td>25.446197</td>
-      <td>0.200335</td>
-      <td>0.2</td>
-      <td>5.12237</td>
-      <td>0.200038</td>
-      <td>0.2</td>
-      <td>0.2</td>
-      <td>0.200418</td>
-      <td>...</td>
-      <td>1.2</td>
-      <td>1.19324</td>
-      <td>0.2</td>
-      <td>0.2</td>
-      <td>0.2</td>
-      <td>1.2</td>
-      <td>0.200462</td>
-      <td>0.210926</td>
-      <td>0.200367</td>
-      <td>0.200000</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>14.199795</td>
-      <td>0.2</td>
-      <td>7.472743</td>
-      <td>1.200000</td>
-      <td>0.2</td>
-      <td>0.20000</td>
-      <td>2.199962</td>
-      <td>1.2</td>
-      <td>0.2</td>
-      <td>0.200000</td>
-      <td>...</td>
-      <td>0.2</td>
-      <td>0.20000</td>
       <td>5.2</td>
       <td>0.2</td>
       <td>0.2</td>
+      <td>1.2</td>
+      <td>1.199879</td>
+      <td>...</td>
+      <td>0.20028</td>
+      <td>0.213837</td>
+      <td>0.414003</td>
+      <td>0.2</td>
+      <td>1.2</td>
+      <td>0.2</td>
+      <td>12.194827</td>
+      <td>0.201422</td>
+      <td>15.194968</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>14.194690</td>
+      <td>0.2</td>
+      <td>4.058445</td>
+      <td>0.200000</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>1.2</td>
       <td>0.2</td>
       <td>0.200000</td>
+      <td>...</td>
+      <td>0.20000</td>
       <td>0.200000</td>
-      <td>0.201026</td>
       <td>0.200000</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.2</td>
+      <td>0.200000</td>
+      <td>0.277356</td>
+      <td>0.200000</td>
+      <td>0.2</td>
     </tr>
   </tbody>
 </table>
@@ -2013,7 +2016,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-853dbb40-df45-4c5b-92a0-4c5c2e187b7c')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-00b177a1-3172-452e-90b8-f27645c9ec4f')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -2065,12 +2068,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-853dbb40-df45-4c5b-92a0-4c5c2e187b7c button.colab-df-convert');
+        document.querySelector('#df-00b177a1-3172-452e-90b8-f27645c9ec4f button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-853dbb40-df45-4c5b-92a0-4c5c2e187b7c');
+        const element = document.querySelector('#df-00b177a1-3172-452e-90b8-f27645c9ec4f');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -2093,7 +2096,7 @@ document.write(`
   </div>
   </div></div>
 </div>
-<p>##Cluster</p>
+<p>Clustering, dalam konteks analisis data, adalah proses pengelompokkan objek atau data ke dalam kumpulan-kumpulan yang serupa atau homogen berdasarkan karakteristik tertentu. Tujuan utama dari clustering adalah untuk mencari struktur tersembunyi dalam data sehingga objek dalam satu kelompok (cluster) memiliki kesamaan yang tinggi, sedangkan objek di kelompok lain memiliki perbedaan yang signifikan.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">KMeans</span>
@@ -2126,7 +2129,7 @@ document.write(`
 </pre></div>
 </div>
 <div class="output text_html">
-  <div id="df-38c29099-af83-4935-ba80-cb3d31934ab5" class="colab-df-container">
+  <div id="df-295f5a0a-6faf-4f32-86dc-438de2ac0e95" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2157,29 +2160,29 @@ document.write(`
     <tr>
       <th>0</th>
       <td>materi struktur dasar algoritma pemrograman ma...</td>
-      <td>0.051332</td>
+      <td>0.000698</td>
+      <td>0.997907</td>
       <td>0.000697</td>
-      <td>0.947273</td>
       <td>0.000697</td>
-      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
       <td>mata pelajaran sistem komputer siswa memahami ...</td>
       <td>0.000485</td>
-      <td>0.000485</td>
       <td>0.998546</td>
       <td>0.000485</td>
-      <td>0</td>
+      <td>0.000485</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
       <td>penelitian bertujuan pengaruh media pembelajar...</td>
-      <td>0.104869</td>
-      <td>0.808542</td>
-      <td>0.085666</td>
       <td>0.000923</td>
-      <td>1</td>
+      <td>0.051499</td>
+      <td>0.946656</td>
+      <td>0.000923</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2193,11 +2196,11 @@ document.write(`
     <tr>
       <th>4</th>
       <td>mata pelajaran pemrograman dasar salah mata pe...</td>
-      <td>0.186824</td>
       <td>0.000859</td>
-      <td>0.811457</td>
+      <td>0.836911</td>
+      <td>0.161371</td>
       <td>0.000859</td>
-      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>...</th>
@@ -2212,17 +2215,17 @@ document.write(`
       <th>345</th>
       <td>abstrak penelitian bertujuan mengembangkan per...</td>
       <td>0.000773</td>
-      <td>0.387946</td>
-      <td>0.610508</td>
-      <td>0.000773</td>
+      <td>0.170426</td>
+      <td>0.242307</td>
+      <td>0.586494</td>
       <td>0</td>
     </tr>
     <tr>
       <th>346</th>
       <td>siswa mengalami kesulitan materi routing mata ...</td>
-      <td>0.880206</td>
-      <td>0.000639</td>
-      <td>0.118515</td>
+      <td>0.988467</td>
+      <td>0.010254</td>
+      <td>0.000640</td>
       <td>0.000640</td>
       <td>0</td>
     </tr>
@@ -2230,27 +2233,27 @@ document.write(`
       <th>347</th>
       <td>abstrak penelitian bertujuan menumbuhkan daya ...</td>
       <td>0.000882</td>
-      <td>0.000882</td>
       <td>0.997354</td>
       <td>0.000882</td>
-      <td>0</td>
+      <td>0.000882</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>348</th>
       <td>penelitian latar belakangi perangkat pembelaja...</td>
-      <td>0.183256</td>
-      <td>0.257452</td>
-      <td>0.558584</td>
-      <td>0.000707</td>
+      <td>0.070928</td>
+      <td>0.057519</td>
+      <td>0.236954</td>
+      <td>0.634600</td>
       <td>0</td>
     </tr>
     <tr>
       <th>349</th>
       <td>penelitian bertujuan menghasilkan perangkat pe...</td>
       <td>0.000874</td>
-      <td>0.509159</td>
-      <td>0.489092</td>
       <td>0.000874</td>
+      <td>0.369575</td>
+      <td>0.628676</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -2260,7 +2263,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-38c29099-af83-4935-ba80-cb3d31934ab5')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-295f5a0a-6faf-4f32-86dc-438de2ac0e95')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -2312,12 +2315,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-38c29099-af83-4935-ba80-cb3d31934ab5 button.colab-df-convert');
+        document.querySelector('#df-295f5a0a-6faf-4f32-86dc-438de2ac0e95 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-38c29099-af83-4935-ba80-cb3d31934ab5');
+        const element = document.querySelector('#df-295f5a0a-6faf-4f32-86dc-438de2ac0e95');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -2365,403 +2368,7 @@ document.write(`
 </pre></div>
 </div>
 <div class="output text_html">
-  <div id="df-8a57472b-784e-4007-9902-1e1ef73c55b9" class="colab-df-container">
-    <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Abstrak</th>
-      <th>absensi</th>
-      <th>abstra</th>
-      <th>abstrak</th>
-      <th>acak</th>
-      <th>acccess</th>
-      <th>accelerated</th>
-      <th>acceptance</th>
-      <th>acception</th>
-      <th>access</th>
-      <th>...</th>
-      <th>yangrendah</th>
-      <th>yoga</th>
-      <th>yslow</th>
-      <th>yudhistira</th>
-      <th>yx</th>
-      <th>zaman</th>
-      <th>zhitung</th>
-      <th>zona</th>
-      <th>ztabel</th>
-      <th>zulfatun</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>materi struktur dasar algoritma pemrograman ma...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>mata pelajaran sistem komputer siswa memahami ...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>abstrak penelitian bertujuan profil berpikir k...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>mata pelajaran pemrograman dasar salah mata pe...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>perpustakaan mencari sumber pustaka akurat ses...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>abstrak penelitian bertujuan mengembangkan per...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>siswa mengalami kesulitan materi routing mata ...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>347</th>
-      <td>abstrak penelitian bertujuan menumbuhkan daya ...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>348</th>
-      <td>penelitian latar belakangi perangkat pembelaja...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>349</th>
-      <td>penelitian bertujuan menghasilkan perangkat pe...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>209 rows × 3208 columns</p>
-</div>
-    <div class="colab-df-buttons">
-      
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-8a57472b-784e-4007-9902-1e1ef73c55b9')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-      
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-    
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-8a57472b-784e-4007-9902-1e1ef73c55b9 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-8a57472b-784e-4007-9902-1e1ef73c55b9');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-  
-    </div>
-  </div>
-  </div><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Klaster 1:
-</pre></div>
-</div>
-<div class="output text_html">
-  <div id="df-f50b063e-bdab-4b58-a5cb-ebee4a3595e2" class="colab-df-container">
+  <div id="df-8492964b-76c4-4215-9602-fda7efeddcf1" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2810,6 +2417,30 @@ document.write(`
       <td>0</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>abstrak penelitian bertujuan profil berpikir k...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -2901,30 +2532,6 @@ document.write(`
       <td>0</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>pembelajaran metode ceramah menimbulkan kekura...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -2947,102 +2554,6 @@ document.write(`
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>299</th>
-      <td>penggunaan gedung memiliki ruangan luas kegiat...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>322</th>
-      <td>keberhasilan proses belajar diukur hasil belaj...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>335</th>
-      <td>abstrak keberhasilan proses belajar hasil bela...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>337</th>
-      <td>abstrak penggunaan model pembelajaran monoton ...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
     </tr>
     <tr>
       <th>344</th>
@@ -3068,14 +2579,110 @@ document.write(`
       <td>0</td>
       <td>0</td>
     </tr>
+    <tr>
+      <th>345</th>
+      <td>abstrak penelitian bertujuan mengembangkan per...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>siswa mengalami kesulitan materi routing mata ...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>penelitian latar belakangi perangkat pembelaja...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>penelitian bertujuan menghasilkan perangkat pe...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
   </tbody>
 </table>
-<p>141 rows × 3208 columns</p>
+<p>208 rows × 3208 columns</p>
 </div>
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-f50b063e-bdab-4b58-a5cb-ebee4a3595e2')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-8492964b-76c4-4215-9602-fda7efeddcf1')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -3127,12 +2734,408 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-f50b063e-bdab-4b58-a5cb-ebee4a3595e2 button.colab-df-convert');
+        document.querySelector('#df-8492964b-76c4-4215-9602-fda7efeddcf1 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-f50b063e-bdab-4b58-a5cb-ebee4a3595e2');
+        const element = document.querySelector('#df-8492964b-76c4-4215-9602-fda7efeddcf1');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+  
+    </div>
+  </div>
+  </div><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Klaster 1:
+</pre></div>
+</div>
+<div class="output text_html">
+  <div id="df-a7ec55a4-d774-4ae4-ad6a-3fdc5ac24c3e" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Abstrak</th>
+      <th>absensi</th>
+      <th>abstra</th>
+      <th>abstrak</th>
+      <th>acak</th>
+      <th>acccess</th>
+      <th>accelerated</th>
+      <th>acceptance</th>
+      <th>acception</th>
+      <th>access</th>
+      <th>...</th>
+      <th>yangrendah</th>
+      <th>yoga</th>
+      <th>yslow</th>
+      <th>yudhistira</th>
+      <th>yx</th>
+      <th>zaman</th>
+      <th>zhitung</th>
+      <th>zona</th>
+      <th>ztabel</th>
+      <th>zulfatun</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>materi struktur dasar algoritma pemrograman ma...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>mata pelajaran sistem komputer siswa memahami ...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>mata pelajaran pemrograman dasar salah mata pe...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>perpustakaan mencari sumber pustaka akurat ses...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>abstra tujuan penelitian menghasilkan pengemba...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>smk al hikam bangkalan mata pelajaran komputer...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>penelitian bertujuan mengembangankan bahan aja...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>kegiatan belajar mengajar rutinintas mahasiswa...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>abstrak ilmu pengetahuan teknologi berkembang ...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>347</th>
+      <td>abstrak penelitian bertujuan menumbuhkan daya ...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>142 rows × 3208 columns</p>
+</div>
+    <div class="colab-df-buttons">
+      
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a7ec55a4-d774-4ae4-ad6a-3fdc5ac24c3e')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+      
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+    
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a7ec55a4-d774-4ae4-ad6a-3fdc5ac24c3e button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a7ec55a4-d774-4ae4-ad6a-3fdc5ac24c3e');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
