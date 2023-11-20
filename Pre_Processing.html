@@ -466,7 +466,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-cca9b317-7d3e-473d-abe2-a13e41514434" class="colab-df-container">
+  <div id="df-5896f964-3619-498b-a41e-e262fc7859f9" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -600,7 +600,7 @@ document.write(`
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-cca9b317-7d3e-473d-abe2-a13e41514434')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5896f964-3619-498b-a41e-e262fc7859f9')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -652,12 +652,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-cca9b317-7d3e-473d-abe2-a13e41514434 button.colab-df-convert');
+        document.querySelector('#df-5896f964-3619-498b-a41e-e262fc7859f9 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-cca9b317-7d3e-473d-abe2-a13e41514434');
+        const element = document.querySelector('#df-5896f964-3619-498b-a41e-e262fc7859f9');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -680,8 +680,7 @@ document.write(`
   </div>
   </div></div>
 </div>
-<p>##Punctuation process
-Punctuation process adalah salah satu tahap dalam pre-processing data yang melibatkan penghapusan tanda baca dari teks atau dataset. Tanda baca seperti titik, koma, tanda tanya, dan lainnya dianggap tidak memberikan informasi penting.</p>
+<p>Punctuation process adalah salah satu tahap dalam pre-processing data yang melibatkan penghapusan tanda baca dari teks atau dataset. Tanda baca seperti titik, koma, tanda tanya, dan lainnya dianggap tidak memberikan informasi penting.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cleaning</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
@@ -738,8 +737,7 @@ Name: data_clean, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>##tokenizing
-Tokenizing adalah proses pemisahan teks atau dokumen menjadi unit-unit diskrit yang lebih kecil yang disebut sebagai token.</p>
+<p>Tokenizing adalah proses pemisahan teks atau dokumen menjadi unit-unit diskrit yang lebih kecil yang disebut sebagai token.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">tokenizer</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
@@ -768,8 +766,7 @@ Name: Tokenizing, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>##stopword
-Stopword adalah kata-kata umum yang sering muncul dalam suatu teks dan dianggap memiliki sedikit nilai informatif atau kontribusi terhadap pemahaman makna. seperti ke,di,dan,atau dll.</p>
+<p>Stopword adalah kata-kata umum yang sering muncul dalam suatu teks dan dianggap memiliki sedikit nilai informatif atau kontribusi terhadap pemahaman makna. seperti ke,di,dan,atau dll.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">corpus</span> <span class="o">=</span> <span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">&#39;indonesian&#39;</span><span class="p">)</span>
@@ -802,8 +799,7 @@ Name: stopword, Length: 345, dtype: object
 </div>
 </div>
 </div>
-<p>##tf-idf
-Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang digunakan untuk mengevaluasi seberapa penting suatu kata dalam suatu dokumen dalam konteks koleksi dokumen. biasanya digunakan untuk memberikan bobot pada setiap kata-kata dalam dokumen.</p>
+<p>Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang digunakan untuk mengevaluasi seberapa penting suatu kata dalam suatu dokumen dalam konteks koleksi dokumen. biasanya digunakan untuk memberikan bobot pada setiap kata-kata dalam dokumen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">tfidf</span><span class="p">(</span><span class="n">dokumen</span><span class="p">):</span>
@@ -823,7 +819,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7" class="colab-df-container">
+  <div id="df-181e81bc-46aa-44d6-be62-0fa74fcd5cc1" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1137,7 +1133,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-181e81bc-46aa-44d6-be62-0fa74fcd5cc1')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1189,12 +1185,12 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 
     <script>
       const buttonEl =
-        document.querySelector('#df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7 button.colab-df-convert');
+        document.querySelector('#df-181e81bc-46aa-44d6-be62-0fa74fcd5cc1 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-b3e736a7-913a-4d73-9e08-faba5b7fe4b7');
+        const element = document.querySelector('#df-181e81bc-46aa-44d6-be62-0fa74fcd5cc1');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1224,8 +1220,7 @@ Term Frequency-Inverse Document Frequency (TF-IDF) adalah metode statistik yang 
 </div>
 </div>
 </div>
-<p>##term frequensi
-Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul dalam suatu dokumen. Tujuan dari menghitung term frequency adalah untuk memberikan bobot pada kata-kata dalam suatu dokumen sehingga kita dapat memahami seberapa penting atau relevan kata tersebut terhadap dokumen tersebut.</p>
+<p>Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul dalam suatu dokumen. Tujuan dari menghitung term frequency adalah untuk memberikan bobot pada kata-kata dalam suatu dokumen sehingga kita dapat memahami seberapa penting atau relevan kata tersebut terhadap dokumen tersebut.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">term_freq</span><span class="p">(</span><span class="n">dokumens</span><span class="p">):</span>
@@ -1246,7 +1241,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c104135f-78ce-4e82-a980-733b3d998106" class="colab-df-container">
+  <div id="df-a00964ae-090a-4139-86d1-f318da96a138" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1560,7 +1555,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-c104135f-78ce-4e82-a980-733b3d998106')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a00964ae-090a-4139-86d1-f318da96a138')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1612,12 +1607,12 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 
     <script>
       const buttonEl =
-        document.querySelector('#df-c104135f-78ce-4e82-a980-733b3d998106 button.colab-df-convert');
+        document.querySelector('#df-a00964ae-090a-4139-86d1-f318da96a138 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-c104135f-78ce-4e82-a980-733b3d998106');
+        const element = document.querySelector('#df-a00964ae-090a-4139-86d1-f318da96a138');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1647,8 +1642,7 @@ Term Frequency (TF) adalah ukuran seberapa sering suatu kata atau term muncul da
 </div>
 </div>
 </div>
-<p>##logarithm frequensi
-Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dalam analisis teks atau pemrosesan bahasa alami untuk mengukur seberapa sering suatu kata muncul dalam suatu dokumen atau korpus dengan menggunakan skala logaritmik.</p>
+<p>Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dalam analisis teks atau pemrosesan bahasa alami untuk mengukur seberapa sering suatu kata muncul dalam suatu dokumen atau korpus dengan menggunakan skala logaritmik.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">logarithm_freq</span><span class="p">(</span><span class="n">dokumens</span><span class="p">):</span>
@@ -1662,7 +1656,7 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2c1e557b-af9a-4a00-9a19-d9ee33398d31" class="colab-df-container">
+  <div id="df-ad9c6511-998d-48de-a699-1e09c9ede612" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1976,7 +1970,7 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-2c1e557b-af9a-4a00-9a19-d9ee33398d31')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-ad9c6511-998d-48de-a699-1e09c9ede612')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -2028,12 +2022,12 @@ Log-frequency atau log-frequency weighting adalah pendekatan yang digunakan dala
 
     <script>
       const buttonEl =
-        document.querySelector('#df-2c1e557b-af9a-4a00-9a19-d9ee33398d31 button.colab-df-convert');
+        document.querySelector('#df-ad9c6511-998d-48de-a699-1e09c9ede612 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-2c1e557b-af9a-4a00-9a19-d9ee33398d31');
+        const element = document.querySelector('#df-ad9c6511-998d-48de-a699-1e09c9ede612');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
