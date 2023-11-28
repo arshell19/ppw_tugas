@@ -62,10 +62,9 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Berita_Online';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Salinan Berita_Online';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="LDA_Topic_Modelling" href="LDA_Topic_Modelling.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -173,11 +172,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Task</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Web_Crowling.html">Web_Crowling</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Pre_Processing.html">Pre_Processing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="LDA_Topic_Modelling.html">LDA_Topic_Modelling</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Berita_Online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Berita_Online.html">Berita_Online</a></li>
 </ul>
 
     </div>
@@ -232,7 +231,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://colab.research.google.com/github/arshell19/ppw_tugas/blob/master/docs/Berita_Online.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/arshell19/ppw_tugas/blob/master/docs/Salinan Berita_Online.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onColab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -280,7 +279,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/arshell19/ppw_tugas/issues/new?title=Issue%20on%20page%20%2FBerita_Online.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/arshell19/ppw_tugas/issues/new?title=Issue%20on%20page%20%2FSalinan Berita_Online.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -310,7 +309,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/Berita_Online.ipynb" target="_blank"
+      <li><a href="_sources/Salinan Berita_Online.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -408,16 +407,6 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="berita-online">
 <h1>Berita_Online<a class="headerlink" href="#berita-online" title="Permalink to this heading">#</a></h1>
-<p>Berita crawling di situs web mengacu pada pengumpulan berita atau informasi terkini dari situs web berita. Proses ini dapat dilakukan oleh bot yang dikendalikan oleh mesin pencari, agregator berita, atau layanan lainnya yang ingin menyajikan informasi terbaru kepada pengguna mereka.</p>
-<p>Langkah-langkah:</p>
-<ol class="arabic simple">
-<li><p>memulai proses crowling</p></li>
-<li><p>mengidentifikasi URL Artikel</p></li>
-<li><p>Mengakses halaman artikel</p></li>
-<li><p>ekstraksi informasi</p></li>
-<li><p>menyimpan dan mengindeks</p></li>
-<li><p>memperbarui  informasi</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>Sastrawi
@@ -441,24 +430,13 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting Sastrawi
-  Downloading Sastrawi-1.0.1-py2.py3-none-any.whl (209 kB)
-?25l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/209.7 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━ <span class=" -Color -Color-Green">143.4/209.7 kB</span> <span class=" -Color -Color-Red">4.5 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">209.7/209.7 kB</span> <span class=" -Color -Color-Red">4.6 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25h
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: Sastrawi
-Successfully installed Sastrawi-1.0.1
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: Sastrawi in /usr/local/lib/python3.10/dist-packages (1.0.1)
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package stopwords to /root/nltk_data...
-[nltk_data]   Unzipping corpora/stopwords.zip.
+[nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package punkt to /root/nltk_data...
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data]   Unzipping tokenizers/punkt.zip.
+[nltk_data]   Package punkt is already up-to-date!
 </pre></div>
 </div>
 </div>
@@ -582,7 +560,7 @@ Lihat
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;berlalu&#39;, &#39;rupanya&#39;, &#39;lagi&#39;, &#39;kira-kira&#39;, &#39;siapakah&#39;, &#39;dulu&#39;, &#39;bersiap-siap&#39;, &#39;sana&#39;, &#39;bolehkah&#39;, &#39;kemungkinannya&#39;, &#39;hendaklah&#39;, &#39;dituturkan&#39;, &#39;jumlahnya&#39;, &#39;masalah&#39;, &#39;melainkan&#39;, &#39;sesampai&#39;, &#39;sebegini&#39;, &#39;menuturkan&#39;, &#39;meminta&#39;, &#39;misalkan&#39;, &#39;antar&#39;, &#39;memang&#39;, &#39;dibuat&#39;, &#39;dua&#39;, &#39;sesudahnya&#39;, &#39;tahu&#39;, &#39;memastikan&#39;, &#39;sebagaimana&#39;, &#39;pukul&#39;, &#39;dan&#39;, &#39;sajalah&#39;, &#39;kami&#39;, &#39;lanjut&#39;, &#39;pastilah&#39;, &#39;bukan&#39;, &#39;memungkinkan&#39;, &#39;malahan&#39;, &#39;dahulu&#39;, &#39;andalah&#39;, &#39;tadi&#39;, &#39;jadi&#39;, &#39;ditandaskan&#39;, &#39;balik&#39;, &#39;dong&#39;, &#39;pada&#39;, &#39;bisa&#39;, &#39;menandaskan&#39;, &#39;menghendaki&#39;, &#39;penting&#39;, &#39;cukup&#39;, &#39;umum&#39;, &#39;demi&#39;, &#39;pak&#39;, &#39;dimaksudkannya&#39;, &#39;bertanya-tanya&#39;, &#39;padahal&#39;, &#39;entah&#39;, &#39;terbanyak&#39;, &#39;ialah&#39;, &#39;maupun&#39;, &#39;juga&#39;, &#39;saat&#39;, &#39;masa&#39;, &#39;sedikitnya&#39;, &#39;dikarenakan&#39;, &#39;mengatakan&#39;, &#39;demikianlah&#39;, &#39;setempat&#39;, &#39;lainnya&#39;, &#39;padanya&#39;, &#39;mengibaratkan&#39;, &#39;hal&#39;, &#39;waktu&#39;, &#39;ibaratkan&#39;, &#39;kebetulan&#39;, &#39;lebih&#39;, &#39;semula&#39;, &#39;tegas&#39;, &#39;seketika&#39;, &#39;ditunjuk&#39;, &#39;tentang&#39;, &#39;memisalkan&#39;, &#39;sebutnya&#39;, &#39;sekadarnya&#39;, &#39;dari&#39;, &#39;atau&#39;, &#39;apalagi&#39;, &#39;bagaikan&#39;, &#39;diberi&#39;, &#39;berawal&#39;, &#39;benar&#39;, &#39;mengucapkannya&#39;, &#39;sebaik-baiknya&#39;, &#39;sekurang-kurangnya&#39;, &#39;buat&#39;, &#39;dimaksud&#39;, &#39;diperbuat&#39;, &#39;semisalnya&#39;, &#39;tampak&#39;, &#39;tiga&#39;, &#39;meyakini&#39;, &#39;selamanya&#39;, &#39;ditambahkan&#39;, &#39;sewaktu&#39;, &#39;diinginkan&#39;, &#39;se&#39;, &#39;tuturnya&#39;, &#39;diibaratkannya&#39;, &#39;kelima&#39;, &#39;menyangkut&#39;, &#39;jawaban&#39;, &#39;jelaslah&#39;, &#39;lanjutnya&#39;, &#39;yakni&#39;, &#39;menantikan&#39;, &#39;khususnya&#39;, &#39;melakukan&#39;, &#39;demikian&#39;, &#39;diri&#39;, &#39;didapat&#39;, &#39;wong&#39;, &#39;sekiranya&#39;, &#39;sebagai&#39;, &#39;sendiri&#39;, &#39;kepada&#39;, &#39;menyeluruh&#39;, &#39;berikan&#39;, &#39;begitulah&#39;, &#39;inginkah&#39;, &#39;tiba-tiba&#39;, &#39;diucapkan&#39;, &#39;guna&#39;, &#39;kenapa&#39;, &#39;kinilah&#39;, &#39;atas&#39;, &#39;memerlukan&#39;, &#39;mirip&#39;, &#39;ingat&#39;, &#39;kelamaan&#39;, &#39;bukankah&#39;, &#39;ujar&#39;, &#39;mengingatkan&#39;, &#39;pun&#39;, &#39;inilah&#39;, &#39;jangankan&#39;, &#39;siapapun&#39;, &#39;bertanya&#39;, &#39;kasus&#39;, &#39;cara&#39;, &#39;rasa&#39;, &#39;seluruhnya&#39;, &#39;diibaratkan&#39;, &#39;benarkah&#39;, &#39;dikatakannya&#39;, &#39;menanti-nanti&#39;, &#39;kamu&#39;, &#39;saja&#39;, &#39;semata-mata&#39;, &#39;kata&#39;, &#39;ataupun&#39;, &#39;sedemikian&#39;, &#39;memberikan&#39;, &#39;tambahnya&#39;, &#39;bermula&#39;, &#39;per&#39;, &#39;mendapatkan&#39;, &#39;jika&#39;, &#39;sebabnya&#39;, &#39;disini&#39;, &#39;ungkapnya&#39;, &#39;kamilah&#39;, &#39;dialah&#39;, &#39;sampaikan&#39;, &#39;dilalui&#39;, &#39;jawabnya&#39;, &#39;kurang&#39;, &#39;bahkan&#39;, &#39;bermacam&#39;, &#39;kala&#39;, &#39;sendirian&#39;, &#39;terdahulu&#39;, &#39;menunjuki&#39;, &#39;jelasnya&#39;, &#39;antaranya&#39;, &#39;kok&#39;, &#39;enggaknya&#39;, &#39;lama&#39;, &#39;melihat&#39;, &#39;sedang&#39;, &#39;jelaskan&#39;, &#39;setelah&#39;, &#39;dilakukan&#39;, &#39;seringnya&#39;, &#39;waduh&#39;, &#39;berapa&#39;, &#39;bagai&#39;, &#39;mendapat&#39;, &#39;sebisanya&#39;, &#39;pertama&#39;, &#39;ia&#39;, &#39;ditujukan&#39;, &#39;kapankah&#39;, &#39;kemungkinan&#39;, &#39;tidak&#39;, &#39;tengah&#39;, &#39;tetapi&#39;, &#39;belum&#39;, &#39;mengungkapkan&#39;, &#39;teringat-ingat&#39;, &#39;hanyalah&#39;, &#39;percuma&#39;, &#39;cukuplah&#39;, &#39;tempat&#39;, &#39;hendak&#39;, &#39;sedikit&#39;, &#39;disampaikan&#39;, &#39;soalnya&#39;, &#39;sepihak&#39;, &#39;itu&#39;, &#39;anda&#39;, &#39;haruslah&#39;, &#39;bagian&#39;, &#39;diingatkan&#39;, &#39;macam&#39;, &#39;minta&#39;, &#39;mungkin&#39;, &#39;dimintai&#39;, &#39;katakan&#39;, &#39;sepantasnya&#39;, &#39;memperbuat&#39;, &#39;punya&#39;, &#39;saling&#39;, &#39;dimisalkan&#39;, &#39;tanya&#39;, &#39;disebut&#39;, &#39;begitu&#39;, &#39;cukupkah&#39;, &#39;didatangkan&#39;, &#39;bakal&#39;, &#39;bagaimana&#39;, &#39;dia&#39;, &#39;menegaskan&#39;, &#39;setengah&#39;, &#39;diperlukannya&#39;, &#39;tegasnya&#39;, &#39;berdatangan&#39;, &#39;sangatlah&#39;, &#39;bung&#39;, &#39;disebutkannya&#39;, &#39;sebuah&#39;, &#39;dimulai&#39;, &#39;ketika&#39;, &#39;mempunyai&#39;, &#39;sebagainya&#39;, &#39;di&#39;, &#39;mulai&#39;, &#39;apa&#39;, &#39;kalaupun&#39;, &#39;berapakah&#39;, &#39;sepertinya&#39;, &#39;sebagian&#39;, &#39;sesama&#39;, &#39;menyampaikan&#39;, &#39;mengingat&#39;, &#39;ibaratnya&#39;, &#39;sebab&#39;, &#39;tapi&#39;, &#39;mengatakannya&#39;, &#39;sesuatu&#39;, &#39;ingin&#39;, &#39;semampu&#39;, &#39;mulailah&#39;, &#39;tanpa&#39;, &#39;gunakan&#39;, &#39;terlalu&#39;, &#39;sejumlah&#39;, &#39;tepat&#39;, &#39;mendatang&#39;, &#39;mengira&#39;, &#39;terdiri&#39;, &#39;untuk&#39;, &#39;tutur&#39;, &#39;diperbuatnya&#39;, &#39;tak&#39;, &#39;biasa&#39;, &#39;berada&#39;, &#39;semacam&#39;, &#39;seperlunya&#39;, &#39;termasuk&#39;, &#39;nanti&#39;, &#39;umumnya&#39;, &#39;memintakan&#39;, &#39;diperlukan&#39;, &#39;memperkirakan&#39;, &#39;menjadi&#39;, &#39;tetap&#39;, &#39;masihkah&#39;, &#39;setibanya&#39;, &#39;berbagai&#39;, &#39;jikalau&#39;, &#39;depan&#39;, &#39;mengucapkan&#39;, &#39;berakhirlah&#39;, &#39;diantara&#39;, &#39;pentingnya&#39;, &#39;karenanya&#39;, &#39;bukannya&#39;, &#39;kapan&#39;, &#39;sebaik&#39;, &#39;sebesar&#39;, &#39;sejenak&#39;, &#39;bakalan&#39;, &#39;karena&#39;, &#39;bukanlah&#39;, &#39;keseluruhannya&#39;, &#39;pihaknya&#39;, &#39;menggunakan&#39;, &#39;berkehendak&#39;, &#39;memperlihatkan&#39;, &#39;sebegitu&#39;, &#39;dipergunakan&#39;, &#39;seberapa&#39;, &#39;semampunya&#39;, &#39;sendirinya&#39;, &#39;ternyata&#39;, &#39;kedua&#39;, &#39;sekarang&#39;, &#39;hari&#39;, &#39;sekitar&#39;, &#39;tiap&#39;, &#39;pertama-tama&#39;, &#39;nyatanya&#39;, &#39;sepantasnyalah&#39;, &#39;tampaknya&#39;, &#39;ataukah&#39;, &#39;hendaknya&#39;, &#39;dimulainya&#39;, &#39;menurut&#39;, &#39;mau&#39;, &#39;sampai-sampai&#39;, &#39;apakah&#39;, &#39;dapat&#39;, &#39;tunjuk&#39;, &#39;disebutkan&#39;, &#39;diungkapkan&#39;, &#39;setiba&#39;, &#39;akan&#39;, &#39;namun&#39;, &#39;kalau&#39;, &#39;lah&#39;, &#39;wahai&#39;, &#39;ditunjuknya&#39;, &#39;ingat-ingat&#39;, &#39;usah&#39;, &#39;apatah&#39;, &#39;beri&#39;, &#39;sesekali&#39;, &#39;diberikannya&#39;, &#39;kan&#39;, &#39;cuma&#39;, &#39;semakin&#39;, &#39;bagi&#39;, &#39;berturut&#39;, &#39;tadinya&#39;, &#39;tertentu&#39;, &#39;menuju&#39;, &#39;menanyakan&#39;, &#39;sangat&#39;, &#39;seperti&#39;, &#39;jadinya&#39;, &#39;berakhirnya&#39;, &#39;berlainan&#39;, &#39;sebaiknya&#39;, &#39;kalaulah&#39;, &#39;merasa&#39;, &#39;katakanlah&#39;, &#39;dini&#39;, &#39;beginian&#39;, &#39;menaiki&#39;, &#39;begitukah&#39;, &#39;misal&#39;, &#39;sekecil&#39;, &#39;beginikah&#39;, &#39;sekitarnya&#39;, &#39;bagaimanapun&#39;, &#39;terlihat&#39;, &#39;nyaris&#39;, &#39;berikut&#39;, &#39;bilakah&#39;, &#39;selain&#39;, &#39;kapanpun&#39;, &#39;ada&#39;, &#39;terjadilah&#39;, &#39;yakin&#39;, &#39;diketahui&#39;, &#39;dalam&#39;, &#39;mampu&#39;, &#39;mula&#39;, &#39;sejauh&#39;, &#39;misalnya&#39;, &#39;empat&#39;, &#39;merupakan&#39;, &#39;sambil&#39;, &#39;terlebih&#39;, &#39;mengetahui&#39;, &#39;bisakah&#39;, &#39;semua&#39;, &#39;asal&#39;, &#39;jawab&#39;, &#39;walau&#39;, &#39;dijawab&#39;, &#39;merekalah&#39;, &#39;diucapkannya&#39;, &#39;soal&#39;, &#39;tertuju&#39;, &#39;wah&#39;, &#39;lagian&#39;, &#39;diakhiri&#39;, &#39;dikerjakan&#39;, &#39;katanya&#39;, &#39;mendatangkan&#39;, &#39;ditunjukkan&#39;, &#39;makin&#39;, &#39;diberikan&#39;, &#39;manakala&#39;, &#39;lima&#39;, &#39;menunjukkan&#39;, &#39;kelihatannya&#39;, &#39;sementara&#39;, &#39;sinilah&#39;, &#39;tandasnya&#39;, &#39;saatnya&#39;, &#39;aku&#39;, &#39;mereka&#39;, &#39;tidaklah&#39;, &#39;setidaknya&#39;, &#39;semaunya&#39;, &#39;dilihat&#39;, &#39;bermaksud&#39;, &#39;sekadar&#39;, &#39;jauh&#39;, &#39;menanyai&#39;, &#39;tersebutlah&#39;, &#39;menanya&#39;, &#39;baru&#39;, &#39;seusai&#39;, &#39;kamulah&#39;, &#39;nah&#39;, &#39;dipastikan&#39;, &#39;setidak-tidaknya&#39;, &#39;turut&#39;, &#39;sebanyak&#39;, &#39;sebenarnya&#39;, &#39;caranya&#39;, &#39;semuanya&#39;, &#39;akulah&#39;, &#39;disinilah&#39;, &#39;sebelumnya&#39;, &#39;terakhir&#39;, &#39;diantaranya&#39;, &#39;lain&#39;, &#39;pertanyakan&#39;, &#39;keluar&#39;, &#39;bawah&#39;, &#39;berapalah&#39;, &#39;berkenaan&#39;, &#39;malah&#39;, &#39;persoalan&#39;, &#39;seharusnya&#39;, &#39;olehnya&#39;, &#39;memberi&#39;, &#39;menambahkan&#39;, &#39;asalkan&#39;, &#39;begitupun&#39;, &#39;mengerjakan&#39;, &#39;selaku&#39;, &#39;seolah-olah&#39;, &#39;tiba&#39;, &#39;berikutnya&#39;, &#39;sama&#39;, &#39;nantinya&#39;, &#39;pertanyaan&#39;, &#39;ungkap&#39;, &#39;segera&#39;, &#39;terhadapnya&#39;, &#39;lalu&#39;, &#39;bolehlah&#39;, &#39;amat&#39;, &#39;lewat&#39;, &#39;tentu&#39;, &#39;entahlah&#39;, &#39;adanya&#39;, &#39;boleh&#39;, &#39;dituturkannya&#39;, &#39;supaya&#39;, &#39;meyakinkan&#39;, &#39;betul&#39;, &#39;sela&#39;, &#39;ke&#39;, &#39;setinggi&#39;, &#39;kesampaian&#39;, &#39;sekali&#39;, &#39;mungkinkah&#39;, &#39;sekaligus&#39;, &#39;sesaat&#39;, &#39;daripada&#39;, &#39;belakang&#39;, &#39;dimaksudnya&#39;, &#39;makanya&#39;, &#39;beberapa&#39;, &#39;digunakan&#39;, &#39;diperlihatkan&#39;, &#39;diingat&#39;, &#39;serta&#39;, &#39;semasih&#39;, &#39;terus&#39;, &#39;biasanya&#39;, &#39;amatlah&#39;, &#39;jadilah&#39;, &#39;agar&#39;, &#39;agaknya&#39;, &#39;adapun&#39;, &#39;menanti&#39;, &#39;meskipun&#39;, &#39;rasanya&#39;, &#39;diperkirakan&#39;, &#39;mengibaratkannya&#39;, &#39;tambah&#39;, &#39;berupa&#39;, &#39;tahun&#39;, &#39;bersama-sama&#39;, &#39;diketahuinya&#39;, &#39;tanyakan&#39;, &#39;tandas&#39;, &#39;para&#39;, &#39;hingga&#39;, &#39;ujarnya&#39;, &#39;kecil&#39;, &#39;dikira&#39;, &#39;seluruh&#39;, &#39;keseluruhan&#39;, &#39;enggak&#39;, &#39;sebut&#39;, &#39;dijelaskannya&#39;, &#39;antara&#39;, &#39;memulai&#39;, &#39;pantas&#39;, &#39;awalnya&#39;, &#39;toh&#39;, &#39;lamanya&#39;, &#39;dirinya&#39;, &#39;jumlah&#39;, &#39;seorang&#39;, &#39;oleh&#39;, &#39;ini&#39;, &#39;waktunya&#39;, &#39;tersebut&#39;, &#39;naik&#39;, &#39;mampukah&#39;, &#39;usai&#39;, &#39;ikut&#39;, &#39;masalahnya&#39;, &#39;secukupnya&#39;, &#39;terdapat&#39;, &#39;mengapa&#39;, &#39;pihak&#39;, &#39;berlangsung&#39;, &#39;betulkah&#39;, &#39;hanya&#39;, &#39;perlukah&#39;, &#39;serupa&#39;, &#39;melalui&#39;, &#39;menunjuk&#39;, &#39;apabila&#39;, &#39;meski&#39;, &#39;keadaan&#39;, &#39;selalu&#39;, &#39;bekerja&#39;, &#39;pernah&#39;, &#39;secara&#39;, &#39;maka&#39;, &#39;bermacam-macam&#39;, &#39;pasti&#39;, &#39;tanyanya&#39;, &#39;sempat&#39;, &#39;sebaliknya&#39;, &#39;kemudian&#39;, &#39;beginilah&#39;, &#39;sayalah&#39;, &#39;teringat&#39;, &#39;itulah&#39;, &#39;hampir&#39;, &#39;berujar&#39;, &#39;kini&#39;, &#39;semasa&#39;, &#39;berapapun&#39;, &#39;segalanya&#39;, &#39;belakangan&#39;, &#39;terkira&#39;, &#39;menginginkan&#39;, &#39;terhadap&#39;, &#39;kepadanya&#39;, &#39;ditunjuki&#39;, &#39;dipunyai&#39;, &#39;itukah&#39;, &#39;kira&#39;, &#39;akhiri&#39;, &#39;dipersoalkan&#39;, &#39;luar&#39;, &#39;masing-masing&#39;, &#39;jangan&#39;, &#39;mempergunakan&#39;, &#39;memihak&#39;, &#39;keterlaluan&#39;, &#39;manalagi&#39;, &#39;sesudah&#39;, &#39;berkata&#39;, &#39;ibu&#39;, &#39;melihatnya&#39;, &#39;awal&#39;, &#39;panjang&#39;, &#39;selanjutnya&#39;, &#39;suatu&#39;, &#39;dibuatnya&#39;, &#39;diminta&#39;, &#39;apaan&#39;, &#39;adalah&#39;, &#39;keinginan&#39;, &#39;kembali&#39;, &#39;seolah&#39;, &#39;datang&#39;, &#39;kalian&#39;, &#39;sejak&#39;, &#39;tentunya&#39;, &#39;terjadi&#39;, &#39;ucapnya&#39;, &#39;mana&#39;, &#39;banyak&#39;, &#39;perlu&#39;, &#39;ditanyai&#39;, &#39;seseorang&#39;, &#39;berkeinginan&#39;, &#39;berakhir&#39;, &#39;masih&#39;, &#39;sudah&#39;, &#39;dikatakan&#39;, &#39;seenaknya&#39;, &#39;mempertanyakan&#39;, &#39;satu&#39;, &#39;bertutur&#39;, &#39;yaitu&#39;, &#39;selama-lamanya&#39;, &#39;sebutlah&#39;, &#39;walaupun&#39;, &#39;menyebutkan&#39;, &#39;baik&#39;, &#39;janganlah&#39;, &#39;sebelum&#39;, &#39;kitalah&#39;, &#39;inginkan&#39;, &#39;kiranya&#39;, &#39;tinggi&#39;, &#39;berarti&#39;, &#39;tentulah&#39;, &#39;ditanyakan&#39;, &#39;seingat&#39;, &#39;sesuatunya&#39;, &#39;kelihatan&#39;, &#39;bersiap&#39;, &#39;menunjuknya&#39;, &#39;segala&#39;, &#39;menjawab&#39;, &#39;terjadinya&#39;, &#39;besar&#39;, &#39;agak&#39;, &#39;ibarat&#39;, &#39;inikah&#39;, &#39;dijelaskan&#39;, &#39;sekurangnya&#39;, &#39;telah&#39;, &#39;sesegera&#39;, &#39;masing&#39;, &#39;harus&#39;, &#39;sekalipun&#39;, &#39;dekat&#39;, &#39;saya&#39;, &#39;harusnya&#39;, &#39;berturut-turut&#39;, &#39;semata&#39;, &#39;akhirnya&#39;, &#39;mendatangi&#39;, &#39;jelas&#39;, &#39;tersampaikan&#39;, &#39;dimungkinkan&#39;, &#39;tidakkah&#39;, &#39;pula&#39;, &#39;rata&#39;, &#39;sekali-kali&#39;, &#39;membuat&#39;, &#39;setiap&#39;, &#39;sering&#39;, &#39;mengakhiri&#39;, &#39;ucap&#39;, &#39;bapak&#39;, &#39;selama&#39;, &#39;mulanya&#39;, &#39;akhir&#39;, &#39;sampai&#39;, &#39;sehingga&#39;, &#39;bersama&#39;, &#39;terutama&#39;, &#39;ditegaskan&#39;, &#39;menyiapkan&#39;, &#39;dimaksudkan&#39;, &#39;dimulailah&#39;, &#39;perlunya&#39;, &#39;seterusnya&#39;, &#39;menjelaskan&#39;, &#39;bagaimanakah&#39;, &#39;bila&#39;, &#39;sekalian&#39;, &#39;ditanya&#39;, &#39;yang&#39;, &#39;bahwa&#39;, &#39;sama-sama&#39;, &#39;keduanya&#39;, &#39;bahwasanya&#39;, &#39;berlebihan&#39;, &#39;dipertanyakan&#39;, &#39;bulan&#39;, &#39;benarlah&#39;, &#39;diakhirinya&#39;, &#39;mengenai&#39;, &#39;mempersiapkan&#39;, &#39;berkali-kali&#39;, &#39;artinya&#39;, &#39;belumlah&#39;, &#39;mempersoalkan&#39;, &#39;ditunjukkannya&#39;, &#39;semisal&#39;, &#39;terasa&#39;, &#39;sepanjang&#39;, &#39;kita&#39;, &#39;begini&#39;, &#39;paling&#39;, &#39;justru&#39;, &#39;sebetulnya&#39;, &#39;siapa&#39;, &#39;siap&#39;, &#39;sini&#39;, &#39;dengan&#39;, &#39;sudahlah&#39;, &#39;akankah&#39;, &#39;berjumlah&#39;, &#39;sedangkan&#39;, &#39;sudahkah&#39;, &#39;menyatakan&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;kalian&#39;, &#39;kapan&#39;, &#39;berikan&#39;, &#39;sebutnya&#39;, &#39;selain&#39;, &#39;bagi&#39;, &#39;jangankan&#39;, &#39;menjawab&#39;, &#39;sekurang-kurangnya&#39;, &#39;menyebutkan&#39;, &#39;rata&#39;, &#39;tiap&#39;, &#39;berujar&#39;, &#39;didapat&#39;, &#39;bersama&#39;, &#39;saya&#39;, &#39;bakalan&#39;, &#39;ialah&#39;, &#39;menurut&#39;, &#39;percuma&#39;, &#39;digunakan&#39;, &#39;perlu&#39;, &#39;mengatakannya&#39;, &#39;bapak&#39;, &#39;menjelaskan&#39;, &#39;lagi&#39;, &#39;inginkah&#39;, &#39;bakal&#39;, &#39;bersiap-siap&#39;, &#39;besar&#39;, &#39;atas&#39;, &#39;setibanya&#39;, &#39;tentunya&#39;, &#39;dong&#39;, &#39;pantas&#39;, &#39;tentu&#39;, &#39;terbanyak&#39;, &#39;gunakan&#39;, &#39;sebetulnya&#39;, &#39;harusnya&#39;, &#39;nantinya&#39;, &#39;misal&#39;, &#39;berapa&#39;, &#39;menantikan&#39;, &#39;ditanyai&#39;, &#39;naik&#39;, &#39;disebut&#39;, &#39;tepat&#39;, &#39;dialah&#39;, &#39;wah&#39;, &#39;sebut&#39;, &#39;manakala&#39;, &#39;tetapi&#39;, &#39;terdapat&#39;, &#39;bahwasanya&#39;, &#39;berlalu&#39;, &#39;betulkah&#39;, &#39;entahlah&#39;, &#39;mempunyai&#39;, &#39;oleh&#39;, &#39;bekerja&#39;, &#39;mungkin&#39;, &#39;hendaklah&#39;, &#39;berarti&#39;, &#39;masalahnya&#39;, &#39;setidak-tidaknya&#39;, &#39;ucapnya&#39;, &#39;untuk&#39;, &#39;dipastikan&#39;, &#39;bahwa&#39;, &#39;umum&#39;, &#39;sebaik&#39;, &#39;memberi&#39;, &#39;tahu&#39;, &#39;wong&#39;, &#39;sekali&#39;, &#39;lamanya&#39;, &#39;rasanya&#39;, &#39;inginkan&#39;, &#39;sana&#39;, &#39;keinginan&#39;, &#39;terdiri&#39;, &#39;apa&#39;, &#39;kemungkinannya&#39;, &#39;meyakini&#39;, &#39;semua&#39;, &#39;meyakinkan&#39;, &#39;bukan&#39;, &#39;berapalah&#39;, &#39;jangan&#39;, &#39;sebegitu&#39;, &#39;tunjuk&#39;, &#39;belum&#39;, &#39;bersama-sama&#39;, &#39;bulan&#39;, &#39;daripada&#39;, &#39;siap&#39;, &#39;ditunjuk&#39;, &#39;memintakan&#39;, &#39;dulu&#39;, &#39;tapi&#39;, &#39;dimulai&#39;, &#39;ataukah&#39;, &#39;cuma&#39;, &#39;mula&#39;, &#39;tanpa&#39;, &#39;semula&#39;, &#39;diperlihatkan&#39;, &#39;dikira&#39;, &#39;diberikan&#39;, &#39;kalau&#39;, &#39;tersebutlah&#39;, &#39;memihak&#39;, &#39;menanti-nanti&#39;, &#39;terlalu&#39;, &#39;kepadanya&#39;, &#39;lanjutnya&#39;, &#39;yang&#39;, &#39;demikianlah&#39;, &#39;meski&#39;, &#39;berikut&#39;, &#39;disini&#39;, &#39;tidaklah&#39;, &#39;harus&#39;, &#39;ataupun&#39;, &#39;pihaknya&#39;, &#39;kami&#39;, &#39;menanyakan&#39;, &#39;mengucapkan&#39;, &#39;mengapa&#39;, &#39;bermula&#39;, &#39;dari&#39;, &#39;berkehendak&#39;, &#39;dikerjakan&#39;, &#39;lewat&#39;, &#39;apalagi&#39;, &#39;dia&#39;, &#39;apakah&#39;, &#39;turut&#39;, &#39;seluruhnya&#39;, &#39;terlebih&#39;, &#39;mampukah&#39;, &#39;menyatakan&#39;, &#39;diibaratkannya&#39;, &#39;cara&#39;, &#39;biasa&#39;, &#39;saling&#39;, &#39;ditunjuknya&#39;, &#39;sangat&#39;, &#39;artinya&#39;, &#39;diibaratkan&#39;, &#39;guna&#39;, &#39;bisa&#39;, &#39;jawabnya&#39;, &#39;minta&#39;, &#39;secara&#39;, &#39;enggak&#39;, &#39;dijelaskan&#39;, &#39;berlangsung&#39;, &#39;bagian&#39;, &#39;dikatakan&#39;, &#39;keterlaluan&#39;, &#39;pasti&#39;, &#39;sampaikan&#39;, &#39;berkata&#39;, &#39;soalnya&#39;, &#39;lama&#39;, &#39;semacam&#39;, &#39;selaku&#39;, &#39;mengingatkan&#39;, &#39;diperbuatnya&#39;, &#39;tanya&#39;, &#39;lah&#39;, &#39;akhir&#39;, &#39;namun&#39;, &#39;segala&#39;, &#39;tambahnya&#39;, &#39;kepada&#39;, &#39;begini&#39;, &#39;bermacam-macam&#39;, &#39;tiba&#39;, &#39;teringat-ingat&#39;, &#39;setelah&#39;, &#39;nyaris&#39;, &#39;semata&#39;, &#39;terhadapnya&#39;, &#39;itu&#39;, &#39;justru&#39;, &#39;pertanyaan&#39;, &#39;keseluruhannya&#39;, &#39;bagai&#39;, &#39;baik&#39;, &#39;berakhir&#39;, &#39;kesampaian&#39;, &#39;cukup&#39;, &#39;yaitu&#39;, &#39;sinilah&#39;, &#39;bagaimanakah&#39;, &#39;antar&#39;, &#39;keadaan&#39;, &#39;amatlah&#39;, &#39;dibuatnya&#39;, &#39;saja&#39;, &#39;jawaban&#39;, &#39;didatangkan&#39;, &#39;ditunjukkannya&#39;, &#39;siapa&#39;, &#39;tanyakan&#39;, &#39;walau&#39;, &#39;semampunya&#39;, &#39;melainkan&#39;, &#39;diakhirinya&#39;, &#39;belumlah&#39;, &#39;masing&#39;, &#39;aku&#39;, &#39;tertentu&#39;, &#39;ikut&#39;, &#39;semaunya&#39;, &#39;misalkan&#39;, &#39;berkenaan&#39;, &#39;perlunya&#39;, &#39;lanjut&#39;, &#39;diungkapkan&#39;, &#39;sesekali&#39;, &#39;dipertanyakan&#39;, &#39;berada&#39;, &#39;kemungkinan&#39;, &#39;cukuplah&#39;, &#39;jika&#39;, &#39;terlihat&#39;, &#39;mengungkapkan&#39;, &#39;balik&#39;, &#39;sepantasnyalah&#39;, &#39;makanya&#39;, &#39;sebaiknya&#39;, &#39;memisalkan&#39;, &#39;sebabnya&#39;, &#39;selanjutnya&#39;, &#39;kita&#39;, &#39;caranya&#39;, &#39;per&#39;, &#39;dilihat&#39;, &#39;menanyai&#39;, &#39;demikian&#39;, &#39;mendapat&#39;, &#39;agak&#39;, &#39;punya&#39;, &#39;tersampaikan&#39;, &#39;mempergunakan&#39;, &#39;maka&#39;, &#39;menggunakan&#39;, &#39;terkira&#39;, &#39;yakni&#39;, &#39;mempersiapkan&#39;, &#39;dahulu&#39;, &#39;sekurangnya&#39;, &#39;memang&#39;, &#39;ungkapnya&#39;, &#39;empat&#39;, &#39;mengakhiri&#39;, &#39;mulailah&#39;, &#39;kapanpun&#39;, &#39;tandasnya&#39;, &#39;jelasnya&#39;, &#39;dijawab&#39;, &#39;ibaratkan&#39;, &#39;malahan&#39;, &#39;ditambahkan&#39;, &#39;melihatnya&#39;, &#39;keseluruhan&#39;, &#39;padahal&#39;, &#39;belakang&#39;, &#39;diperlukannya&#39;, &#39;masing-masing&#39;, &#39;tengah&#39;, &#39;mengingat&#39;, &#39;sepantasnya&#39;, &#39;tidak&#39;, &#39;sekalian&#39;, &#39;mau&#39;, &#39;sesampai&#39;, &#39;ucap&#39;, &#39;masih&#39;, &#39;saatnya&#39;, &#39;keduanya&#39;, &#39;kebetulan&#39;, &#39;tiga&#39;, &#39;persoalan&#39;, &#39;menyampaikan&#39;, &#39;sesama&#39;, &#39;tanyanya&#39;, &#39;begitulah&#39;, &#39;bagaimana&#39;, &#39;begitupun&#39;, &#39;demi&#39;, &#39;sebab&#39;, &#39;makin&#39;, &#39;nah&#39;, &#39;biasanya&#39;, &#39;inilah&#39;, &#39;sebisanya&#39;, &#39;macam&#39;, &#39;ibu&#39;, &#39;dikatakannya&#39;, &#39;sekarang&#39;, &#39;bawah&#39;, &#39;akhiri&#39;, &#39;di&#39;, &#39;awal&#39;, &#39;enggaknya&#39;, &#39;haruslah&#39;, &#39;bung&#39;, &#39;dijelaskannya&#39;, &#39;jadilah&#39;, &#39;pukul&#39;, &#39;mendatangkan&#39;, &#39;sebaliknya&#39;, &#39;melihat&#39;, &#39;berkali-kali&#39;, &#39;bertutur&#39;, &#39;ditunjuki&#39;, &#39;diminta&#39;, &#39;kala&#39;, &#39;berturut&#39;, &#39;hendak&#39;, &#39;mendatang&#39;, &#39;sebagian&#39;, &#39;tegas&#39;, &#39;teringat&#39;, &#39;mempersoalkan&#39;, &#39;dipersoalkan&#39;, &#39;malah&#39;, &#39;tutur&#39;, &#39;masa&#39;, &#39;sekali-kali&#39;, &#39;seorang&#39;, &#39;sementara&#39;, &#39;hampir&#39;, &#39;tentulah&#39;, &#39;masihkah&#39;, &#39;bolehkah&#39;, &#39;karenanya&#39;, &#39;bukankah&#39;, &#39;sebagainya&#39;, &#39;semisalnya&#39;, &#39;kenapa&#39;, &#39;apabila&#39;, &#39;sejak&#39;, &#39;bisakah&#39;, &#39;boleh&#39;, &#39;dekat&#39;, &#39;diperbuat&#39;, &#39;lebih&#39;, &#39;semisal&#39;, &#39;semampu&#39;, &#39;jumlah&#39;, &#39;akan&#39;, &#39;wahai&#39;, &#39;entah&#39;, &#39;awalnya&#39;, &#39;mana&#39;, &#39;tampak&#39;, &#39;seberapa&#39;, &#39;semata-mata&#39;, &#39;walaupun&#39;, &#39;berjumlah&#39;, &#39;dipunyai&#39;, &#39;dikarenakan&#39;, &#39;beginilah&#39;, &#39;berturut-turut&#39;, &#39;dipergunakan&#39;, &#39;kecil&#39;, &#39;meminta&#39;, &#39;manalagi&#39;, &#39;bagaikan&#39;, &#39;katakan&#39;, &#39;melalui&#39;, &#39;lalu&#39;, &#39;sampai&#39;, &#39;jelaskan&#39;, &#39;saat&#39;, &#39;menunjukkan&#39;, &#39;membuat&#39;, &#39;kamulah&#39;, &#39;rupanya&#39;, &#39;terakhir&#39;, &#39;dengan&#39;, &#39;kamu&#39;, &#39;jelaslah&#39;, &#39;terjadi&#39;, &#39;sejumlah&#39;, &#39;kamilah&#39;, &#39;diantara&#39;, &#39;tertuju&#39;, &#39;memberikan&#39;, &#39;usai&#39;, &#39;berkeinginan&#39;, &#39;bermaksud&#39;, &#39;disampaikan&#39;, &#39;usah&#39;, &#39;pula&#39;, &#39;dini&#39;, &#39;semasa&#39;, &#39;dituturkan&#39;, &#39;ingat-ingat&#39;, &#39;sekaligus&#39;, &#39;sebelumnya&#39;, &#39;panjang&#39;, &#39;adapun&#39;, &#39;katanya&#39;, &#39;antara&#39;, &#39;mengibaratkan&#39;, &#39;merupakan&#39;, &#39;dimaksudkan&#39;, &#39;sekalipun&#39;, &#39;terutama&#39;, &#39;seseorang&#39;, &#39;sesudah&#39;, &#39;mengetahui&#39;, &#39;sebegini&#39;, &#39;apaan&#39;, &#39;penting&#39;, &#39;bila&#39;, &#39;meskipun&#39;, &#39;melakukan&#39;, &#39;soal&#39;, &#39;dilalui&#39;, &#39;sewaktu&#39;, &#39;paling&#39;, &#39;menunjuki&#39;, &#39;dimaksudnya&#39;, &#39;memungkinkan&#39;, &#39;sajalah&#39;, &#39;semasih&#39;, &#39;yakin&#39;, &#39;berikutnya&#39;, &#39;sekiranya&#39;, &#39;bilakah&#39;, &#39;lima&#39;, &#39;terdahulu&#39;, &#39;suatu&#39;, &#39;dalam&#39;, &#39;andalah&#39;, &#39;mendapatkan&#39;, &#39;sepertinya&#39;, &#39;sering&#39;, &#39;tentang&#39;, &#39;kalaupun&#39;, &#39;pada&#39;, &#39;lagian&#39;, &#39;begitu&#39;, &#39;agaknya&#39;, &#39;memperlihatkan&#39;, &#39;tersebut&#39;, &#39;luar&#39;, &#39;atau&#39;, &#39;sudah&#39;, &#39;dimulailah&#39;, &#39;terjadilah&#39;, &#39;benarlah&#39;, &#39;sesudahnya&#39;, &#39;seperti&#39;, &#39;menghendaki&#39;, &#39;terus&#39;, &#39;mereka&#39;, &#39;lainnya&#39;, &#39;sebaik-baiknya&#39;, &#39;tahun&#39;, &#39;seharusnya&#39;, &#39;berakhirnya&#39;, &#39;tampaknya&#39;, &#39;hanya&#39;, &#39;ingin&#39;, &#39;ke&#39;, &#39;cukupkah&#39;, &#39;diingatkan&#39;, &#39;kini&#39;, &#39;diketahuinya&#39;, &#39;ada&#39;, &#39;antaranya&#39;, &#39;mampu&#39;, &#39;lain&#39;, &#39;ditunjukkan&#39;, &#39;belakangan&#39;, &#39;memastikan&#39;, &#39;sama-sama&#39;, &#39;bukannya&#39;, &#39;sedang&#39;, &#39;setinggi&#39;, &#39;menunjuknya&#39;, &#39;ujarnya&#39;, &#39;tiba-tiba&#39;, &#39;beginikah&#39;, &#39;diantaranya&#39;, &#39;ternyata&#39;, &#39;beri&#39;, &#39;menaiki&#39;, &#39;datang&#39;, &#39;berlebihan&#39;, &#39;diperlukan&#39;, &#39;kiranya&#39;, &#39;memulai&#39;, &#39;seperlunya&#39;, &#39;seolah-olah&#39;, &#39;seketika&#39;, &#39;satu&#39;, &#39;mendatangi&#39;, &#39;apatah&#39;, &#39;kelamaan&#39;, &#39;sedikit&#39;, &#39;sambil&#39;, &#39;menuturkan&#39;, &#39;nyatanya&#39;, &#39;sekadar&#39;, &#39;disebutkan&#39;, &#39;diucapkannya&#39;, &#39;tadi&#39;, &#39;tambah&#39;, &#39;memerlukan&#39;, &#39;bermacam&#39;, &#39;berbagai&#39;, &#39;dimaksud&#39;, &#39;janganlah&#39;, &#39;ini&#39;, &#39;sekitarnya&#39;, &#39;sesuatu&#39;, &#39;setempat&#39;, &#39;berawal&#39;, &#39;benarkah&#39;, &#39;mengibaratkannya&#39;, &#39;nanti&#39;, &#39;sedikitnya&#39;, &#39;kembali&#39;, &#39;tegasnya&#39;, &#39;akankah&#39;, &#39;diinginkan&#39;, &#39;padanya&#39;, &#39;sekecil&#39;, &#39;berlainan&#39;, &#39;selama&#39;, &#39;sela&#39;, &#39;dilakukan&#39;, &#39;sudahkah&#39;, &#39;seluruh&#39;, &#39;berapapun&#39;, &#39;bagaimanapun&#39;, &#39;sayalah&#39;, &#39;semuanya&#39;, &#39;tak&#39;, &#39;rasa&#39;, &#39;baru&#39;, &#39;waktu&#39;, &#39;mungkinkah&#39;, &#39;itulah&#39;, &#39;kata&#39;, &#39;sesaat&#39;, &#39;sini&#39;, &#39;kok&#39;, &#39;selalu&#39;, &#39;sudahlah&#39;, &#39;semakin&#39;, &#39;bolehlah&#39;, &#39;tidakkah&#39;, &#39;setengah&#39;, &#39;seenaknya&#39;, &#39;agar&#39;, &#39;diberi&#39;, &#39;dituturkannya&#39;, &#39;ketika&#39;, &#39;sedemikian&#39;, &#39;ditanyakan&#39;, &#39;memperkirakan&#39;, &#39;termasuk&#39;, &#39;bersiap&#39;, &#39;maupun&#39;, &#39;beginian&#39;, &#39;pernah&#39;, &#39;banyak&#39;, &#39;pun&#39;, &#39;begitukah&#39;, &#39;sendiri&#39;, &#39;hingga&#39;, &#39;siapakah&#39;, &#39;tuturnya&#39;, &#39;kedua&#39;, &#39;mengenai&#39;, &#39;itukah&#39;, &#39;olehnya&#39;, &#39;diperkirakan&#39;, &#39;kira&#39;, &#39;diakhiri&#39;, &#39;sehingga&#39;, &#39;mengatakan&#39;, &#39;sebagaimana&#39;, &#39;karena&#39;, &#39;segalanya&#39;, &#39;jumlahnya&#39;, &#39;pentingnya&#39;, &#39;tempat&#39;, &#39;asalkan&#39;, &#39;diucapkan&#39;, &#39;hendaknya&#39;, &#39;ditegaskan&#39;, &#39;hari&#39;, &#39;menegaskan&#39;, &#39;pak&#39;, &#39;sejenak&#39;, &#39;masalah&#39;, &#39;segera&#39;, &#39;tadinya&#39;, &#39;ibarat&#39;, &#39;ditujukan&#39;, &#39;menanya&#39;, &#39;akhirnya&#39;, &#39;mulanya&#39;, &#39;depan&#39;, &#39;toh&#39;, &#39;dimulainya&#39;, &#39;umumnya&#39;, &#39;adalah&#39;, &#39;menunjuk&#39;, &#39;juga&#39;, &#39;menandaskan&#39;, &#39;waduh&#39;, &#39;serta&#39;, &#39;se&#39;, &#39;ibaratnya&#39;, &#39;sepanjang&#39;, &#39;asal&#39;, &#39;seingat&#39;, &#39;setidaknya&#39;, &#39;hanyalah&#39;, &#39;dibuat&#39;, &#39;mempertanyakan&#39;, &#39;ditanya&#39;, &#39;mengerjakan&#39;, &#39;menanti&#39;, &#39;dua&#39;, &#39;ujar&#39;, &#39;disebutkannya&#39;, &#39;sedangkan&#39;, &#39;ingat&#39;, &#39;seterusnya&#39;, &#39;merasa&#39;, &#39;berakhirlah&#39;, &#39;sebanyak&#39;, &#39;sebenarnya&#39;, &#39;mengira&#39;, &#39;selama-lamanya&#39;, &#39;buat&#39;, &#39;sama&#39;, &#39;pertanyakan&#39;, &#39;hal&#39;, &#39;kelima&#39;, &#39;sebagai&#39;, &#39;diberikannya&#39;, &#39;dimisalkan&#39;, &#39;mengucapkannya&#39;, &#39;berdatangan&#39;, &#39;menyiapkan&#39;, &#39;kinilah&#39;, &#39;perlukah&#39;, &#39;bertanya-tanya&#39;, &#39;dirinya&#39;, &#39;khususnya&#39;, &#39;terasa&#39;, &#39;benar&#39;, &#39;keluar&#39;, &#39;waktunya&#39;, &#39;dapat&#39;, &#39;dimaksudkannya&#39;, &#39;sepihak&#39;, &#39;menyeluruh&#39;, &#39;supaya&#39;, &#39;seringnya&#39;, &#39;tinggi&#39;, &#39;sempat&#39;, &#39;diingat&#39;, &#39;kan&#39;, &#39;mirip&#39;, &#39;menjadi&#39;, &#39;kemudian&#39;, &#39;kitalah&#39;, &#39;merekalah&#39;, &#39;pertama-tama&#39;, &#39;sebutlah&#39;, &#39;para&#39;, &#39;sendirian&#39;, &#39;ungkap&#39;, &#39;berupa&#39;, &#39;inikah&#39;, &#39;sebelum&#39;, &#39;kalaulah&#39;, &#39;katakanlah&#39;, &#39;jelas&#39;, &#39;sebesar&#39;, &#39;bukanlah&#39;, &#39;kelihatannya&#39;, &#39;siapapun&#39;, &#39;diketahui&#39;, &#39;dimintai&#39;, &#39;memperbuat&#39;, &#39;akulah&#39;, &#39;dimungkinkan&#39;, &#39;secukupnya&#39;, &#39;setiba&#39;, &#39;anda&#39;, &#39;menginginkan&#39;, &#39;menyangkut&#39;, &#39;seusai&#39;, &#39;sangatlah&#39;, &#39;amat&#39;, &#39;dan&#39;, &#39;pastilah&#39;, &#39;tetap&#39;, &#39;kira-kira&#39;, &#39;ia&#39;, &#39;seolah&#39;, &#39;adanya&#39;, &#39;berapakah&#39;, &#39;sendirinya&#39;, &#39;disinilah&#39;, &#39;terhadap&#39;, &#39;terjadinya&#39;, &#39;selamanya&#39;, &#39;tandas&#39;, &#39;sesuatunya&#39;, &#39;misalnya&#39;, &#39;ditandaskan&#39;, &#39;telah&#39;, &#39;jadi&#39;, &#39;mulai&#39;, &#39;jadinya&#39;, &#39;sejauh&#39;, &#39;sesegera&#39;, &#39;jawab&#39;, &#39;betul&#39;, &#39;kapankah&#39;, &#39;pertama&#39;, &#39;serupa&#39;, &#39;sampai-sampai&#39;, &#39;menuju&#39;, &#39;menambahkan&#39;, &#39;sekadarnya&#39;, &#39;sebuah&#39;, &#39;jikalau&#39;, &#39;pihak&#39;, &#39;kelihatan&#39;, &#39;setiap&#39;, &#39;kurang&#39;, &#39;bahkan&#39;, &#39;kasus&#39;, &#39;diri&#39;, &#39;jauh&#39;, &#39;sekitar&#39;, &#39;beberapa&#39;, &#39;bertanya&#39;}
 </pre></div>
 </div>
 </div>
@@ -846,7 +824,7 @@ Cosine Similarity antara Kalimat 11 dan Kalimat 12: 0.0485
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-9a9c358c-4f35-434f-acd9-460d5305c3d3" class="colab-df-container">
+  <div id="df-9ea356c6-b601-4a93-acd9-ac660e60062f" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1066,7 +1044,7 @@ Cosine Similarity antara Kalimat 11 dan Kalimat 12: 0.0485
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-9a9c358c-4f35-434f-acd9-460d5305c3d3')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-9ea356c6-b601-4a93-acd9-ac660e60062f')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1118,12 +1096,12 @@ Cosine Similarity antara Kalimat 11 dan Kalimat 12: 0.0485
 
     <script>
       const buttonEl =
-        document.querySelector('#df-9a9c358c-4f35-434f-acd9-460d5305c3d3 button.colab-df-convert');
+        document.querySelector('#df-9ea356c6-b601-4a93-acd9-ac660e60062f button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-9a9c358c-4f35-434f-acd9-460d5305c3d3');
+        const element = document.querySelector('#df-9ea356c6-b601-4a93-acd9-ac660e60062f');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1145,6 +1123,522 @@ Cosine Similarity antara Kalimat 11 dan Kalimat 12: 0.0485
     </div>
   </div>
   </div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Diasumsikan similarity_matrix sudah didefinisikan sebelumnya</span>
+<span class="c1"># Contoh similarity_matrix</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span><span class="p">:</span>
+            <span class="n">similarity</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># Bulatkan nilai ke 2 angka dibelakang koma</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi grafik</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Menentukan layout grafik</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>  <span class="c1"># Menggambar grafik dengan label node</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">)</span>  <span class="c1"># Mendapatkan atribut edge (bobot)</span>
+<span class="c1"># Mengubah nilai bobot menjadi string dengan 2 angka di belakang koma</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">weight</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edge_labels</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edge_labels</span><span class="p">)</span>  <span class="c1"># Menampilkan label bobot pada edge</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Visualisasi Graph dengan Kesamaan Kosinus (Bulatan 2 Desimal)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/e53e298ea7dbbb69ba9ebf22f0a4289b0a2d8c4cf76fafa861724d221f7be9d6.png" src="_images/e53e298ea7dbbb69ba9ebf22f0a4289b0a2d8c4cf76fafa861724d221f7be9d6.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Diasumsikan similarity_matrix sudah didefinisikan sebelumnya</span>
+<span class="c1"># Contoh similarity_matrix</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">threshold</span> <span class="o">=</span> <span class="mf">0.06</span>  <span class="c1"># Threshold untuk menyambungkan node</span>
+
+<span class="c1"># Tambahkan semua node ke grafik</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)))</span>
+
+<span class="c1"># Tambahkan edge antara node yang nilainya melebihi threshold</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span> <span class="ow">and</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">:</span>
+            <span class="n">similarity</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># Bulatkan nilai ke 2 angka dibelakang koma</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi grafik</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Menentukan layout grafik</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>  <span class="c1"># Menggambar grafik dengan label node</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">)</span>  <span class="c1"># Mendapatkan atribut edge (bobot)</span>
+<span class="c1"># Mengubah nilai bobot menjadi string dengan 2 angka di belakang koma</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">weight</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edge_labels</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edge_labels</span><span class="p">)</span>  <span class="c1"># Menampilkan label bobot pada edge</span>
+
+<span class="c1"># Tambahkan label pada node yang tidak terhubung</span>
+<span class="n">isolated_nodes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">isolates</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">isolated_nodes</span><span class="p">:</span>
+    <span class="c1"># isolated_nodes_labels = {node: f&#39;Node {node} (Not connected)&#39; for node in isolated_nodes}</span>
+    <span class="n">pos_extra</span> <span class="o">=</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="p">(</span><span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mf">0.1</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">isolated_nodes</span><span class="p">}</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Visualisasi Graph dengan Kesamaan Kosinus (Threshold: </span><span class="si">{</span><span class="n">threshold</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/ea99ac675c09c18d091c12959efc44375b38f9eadbe4336b7fbd3d496df706c8.png" src="_images/ea99ac675c09c18d091c12959efc44375b38f9eadbe4336b7fbd3d496df706c8.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Diasumsikan similarity_matrix sudah didefinisikan sebelumnya</span>
+<span class="c1"># Contoh similarity_matrix</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">threshold</span> <span class="o">=</span> <span class="mf">0.06</span>  <span class="c1"># Threshold untuk menyambungkan node</span>
+
+<span class="c1"># Tambahkan semua node ke grafik</span>
+<span class="n">num_nodes</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">))</span>
+
+<span class="c1"># Tambahkan edge antara node yang nilainya melebihi threshold</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span> <span class="ow">and</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">:</span>
+            <span class="n">similarity</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># Bulatkan nilai ke 2 angka dibelakang koma</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Visualisasi grafik</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Menentukan layout grafik</span>
+
+<span class="c1"># Buat mapping untuk label node</span>
+<span class="n">node_labels</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">)}</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">node_labels</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>  <span class="c1"># Menggambar grafik dengan label node</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">)</span>  <span class="c1"># Mendapatkan atribut edge (bobot)</span>
+<span class="c1"># Mengubah nilai bobot menjadi string dengan 2 angka di belakang koma</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">weight</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edge_labels</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edge_labels</span><span class="p">)</span>  <span class="c1"># Menampilkan label bobot pada edge</span>
+
+<span class="c1"># Tambahkan label pada node yang tidak terhubung</span>
+<span class="n">isolated_nodes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">isolates</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">isolated_nodes</span><span class="p">:</span>
+    <span class="n">pos_extra</span> <span class="o">=</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="p">(</span><span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mf">0.1</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">isolated_nodes</span><span class="p">}</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Visualisasi Graph dengan Kesamaan Kosinus (Threshold: </span><span class="si">{</span><span class="n">threshold</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/21869c9ed41f6a0241bb1be69acba6401319748c4ad4f4b5d56fc872482dc6ab.png" src="_images/21869c9ed41f6a0241bb1be69acba6401319748c4ad4f4b5d56fc872482dc6ab.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Diasumsikan similarity_matrix sudah didefinisikan sebelumnya</span>
+<span class="c1"># Contoh similarity_matrix</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>  <span class="c1"># Menggunakan Directed Graph agar dapat mengakses in_degree dan out_degree</span>
+<span class="n">threshold</span> <span class="o">=</span> <span class="mf">0.06</span>  <span class="c1"># Threshold untuk menyambungkan node</span>
+
+<span class="c1"># Tambahkan semua node ke grafik</span>
+<span class="n">num_nodes</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">))</span>
+
+<span class="c1"># Tambahkan edge antara node yang nilainya melebihi threshold</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">j</span> <span class="ow">and</span> <span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">:</span>
+            <span class="n">similarity</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">similarity_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># Bulatkan nilai ke 2 angka dibelakang koma</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">similarity</span><span class="p">)</span>
+
+<span class="c1"># Hitung indegree dan outdegree untuk setiap node</span>
+<span class="n">indegree</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">in_degree</span><span class="p">())</span>
+<span class="n">outdegree</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">out_degree</span><span class="p">())</span>
+
+<span class="c1"># Visualisasi grafik</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Menentukan layout grafik</span>
+
+<span class="c1"># Buat mapping untuk label node</span>
+<span class="n">node_labels</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="se">\n</span><span class="s2">In: </span><span class="si">{</span><span class="n">indegree</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s2">, Out: </span><span class="si">{</span><span class="n">outdegree</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_nodes</span><span class="p">)}</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">node_labels</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>  <span class="c1"># Menggambar grafik dengan label node</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_edge_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">)</span>  <span class="c1"># Mendapatkan atribut edge (bobot)</span>
+<span class="c1"># Mengubah nilai bobot menjadi string dengan 2 angka di belakang koma</span>
+<span class="n">edge_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">weight</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edge_labels</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edge_labels</span><span class="p">)</span>  <span class="c1"># Menampilkan label bobot pada edge</span>
+
+<span class="c1"># Tambahkan label pada node yang tidak terhubung</span>
+<span class="n">isolated_nodes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">isolates</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">isolated_nodes</span><span class="p">:</span>
+    <span class="n">pos_extra</span> <span class="o">=</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="p">(</span><span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mf">0.1</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">isolated_nodes</span><span class="p">}</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Visualisasi Graph dengan Kesamaan Kosinus (Threshold: </span><span class="si">{</span><span class="n">threshold</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/a6319fe8a371078e05df80247d600e35804aea79ae8dd9116b3a06876348dcdb.png" src="_images/a6319fe8a371078e05df80247d600e35804aea79ae8dd9116b3a06876348dcdb.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menghitung closeness centrality dari graph</span>
+<span class="n">closeness</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan closeness centrality</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Closeness Centrality:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">closeness_value</span> <span class="ow">in</span> <span class="n">closeness</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">closeness_value</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan 3 kalimat dengan PageRank tertinggi</span>
+<span class="n">sorted_pagerank</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">closeness</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=============================&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Top 4 sentences based on closeness centrality:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">sorted_pagerank</span><span class="p">[:</span><span class="mi">4</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">[</span><span class="n">node</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=============================&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Top 3 node based on closeness centrality:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">sorted_pagerank</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Node </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2"> dengan PageRank </span><span class="si">{</span><span class="n">rank</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Closeness Centrality:
+Node 0: 0.6470588235294118
+Node 1: 0.6470588235294118
+Node 2: 0.7857142857142857
+Node 3: 0.55
+Node 4: 0.39285714285714285
+Node 5: 0.4583333333333333
+Node 6: 0.4583333333333333
+Node 7: 0.6111111111111112
+Node 8: 0.3793103448275862
+Node 9: 0.5789473684210527
+Node 10: 0.55
+Node 11: 0.55
+=============================
+Top 4 sentences based on closeness centrality:
+mahfud
+dekdek
+mahfud
+pantau
+=============================
+Top 3 node based on closeness centrality:
+Node 2 dengan PageRank 0.7857
+Node 0 dengan PageRank 0.6471
+Node 1 dengan PageRank 0.6471
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Hitung PageRank</span>
+<span class="n">pagerank</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">pagerank</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan Closeness Centrality</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;PageRank:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">pagerank</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">node</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">rank</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan 3 kalimat dengan PageRank tertinggi</span>
+<span class="n">sorted_pagerank</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">pagerank</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=============================&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Top 4 sentences based on PageRank:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">sorted_pagerank</span><span class="p">[:</span><span class="mi">4</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">[</span><span class="n">node</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=============================&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Top 4 kalimat based on PageRank:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">sorted_pagerank</span><span class="p">[:</span><span class="mi">4</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">node</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2"> dengan PageRank </span><span class="si">{</span><span class="n">rank</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1">#sorted_pagerank = sorted(pagerank.items(), key=lambda x: x[1], reverse=True)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>PageRank:
+Kalimat 1: 0.10441071854309654
+Kalimat 2: 0.14476124809393295
+Kalimat 3: 0.15375364020791799
+Kalimat 4: 0.0959266865333283
+Kalimat 5: 0.06291982651951121
+Kalimat 6: 0.01814128657577849
+Kalimat 7: 0.0716960662166313
+Kalimat 8: 0.06269283081660867
+Kalimat 9: 0.031121663635506166
+Kalimat 10: 0.10723407873586832
+Kalimat 11: 0.08301886425680026
+Kalimat 12: 0.06432308986501983
+=============================
+Top 4 sentences based on PageRank:
+md
+mahfud
+rekam
+mahfud
+=============================
+Top 4 kalimat based on PageRank:
+Kalimat 3 dengan PageRank 0.1538
+Kalimat 2 dengan PageRank 0.1448
+Kalimat 10 dengan PageRank 0.1072
+Kalimat 1 dengan PageRank 0.1044
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Buat graf</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edge_labels</span><span class="p">)</span>
+
+<span class="c1"># Inisialisasi PageRank</span>
+<span class="n">pagerank</span> <span class="o">=</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="mi">1</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">}</span>
+
+<span class="c1"># Iterasi untuk menghitung PageRank</span>
+<span class="n">num_iterations</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Iterasi </span><span class="si">{</span><span class="n">iteration</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">:&quot;</span><span class="p">)</span>
+    <span class="n">new_pagerank</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">damping_factor</span> <span class="o">=</span> <span class="mf">0.85</span>
+
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+        <span class="n">rank_sum</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">neighbor</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">neighbors</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>
+            <span class="n">neighbor_outdegree</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">neighbors</span><span class="p">(</span><span class="n">neighbor</span><span class="p">)))</span>
+            <span class="n">rank_sum</span> <span class="o">+=</span> <span class="n">pagerank</span><span class="p">[</span><span class="n">neighbor</span><span class="p">]</span> <span class="o">/</span> <span class="n">neighbor_outdegree</span>
+
+        <span class="c1"># Hitung PageRank baru menggunakan rumus</span>
+        <span class="n">new_pagerank</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">damping_factor</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">)</span> <span class="o">+</span> <span class="n">damping_factor</span> <span class="o">*</span> <span class="n">rank_sum</span>
+
+        <span class="c1"># Cetak langkah-langkah perhitungan PageRank untuk setiap node</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  - Kalimat </span><span class="si">{</span><span class="n">node</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: (</span><span class="si">{</span><span class="p">(</span><span class="mi">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">damping_factor</span><span class="p">)</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">)</span><span class="si">}</span><span class="s2">) + (</span><span class="si">{</span><span class="n">damping_factor</span><span class="si">}</span><span class="s2"> * </span><span class="si">{</span><span class="n">rank_sum</span><span class="si">}</span><span class="s2">) = </span><span class="si">{</span><span class="n">new_pagerank</span><span class="p">[</span><span class="n">node</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Perbarui nilai PageRank</span>
+    <span class="n">pagerank</span> <span class="o">=</span> <span class="n">new_pagerank</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan hasil PageRank akhir</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hasil Akhir PageRank:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">rank</span> <span class="ow">in</span> <span class="n">pagerank</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kalimat </span><span class="si">{</span><span class="n">node</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">rank</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Iterasi 1:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.09930555555555554) = 0.0969097222222222
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.09930555555555554) = 0.0969097222222222
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.2138888888888889) = 0.19430555555555556
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.08680555555555554) = 0.08628472222222221
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.1423611111111111) = 0.13350694444444444
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.05486111111111111) = 0.059131944444444445
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.05486111111111111) = 0.059131944444444445
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.0798611111111111) = 0.08038194444444444
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.010416666666666666) = 0.021354166666666667
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.05555555555555555) = 0.059722222222222225
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.08611111111111111) = 0.08569444444444443
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.016666666666666666) = 0.02666666666666667
+
+
+Iterasi 2:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11396412037037038) = 0.10936950231481482
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11396412037037038) = 0.10936950231481482
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.15397569444444445) = 0.1433793402777778
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.09993923611111111) = 0.09744835069444444
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.09804108796296296) = 0.09583492476851851
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.08329282407407407) = 0.08329890046296295
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07384837962962962) = 0.07527112268518517
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.08271412037037036) = 0.0828070023148148
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.024288194444444446) = 0.03314496527777778
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.05535879629629629) = 0.05955497685185185
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07391203703703703) = 0.07532523148148147
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.02670138888888889) = 0.03519618055555556
+
+
+Iterasi 3:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11444982880015432) = 0.10978235448013117
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11444982880015432) = 0.10978235448013117
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.1755029610339506) = 0.16167751687885804
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.09830510947145062) = 0.09605934305073302
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.11039982397762346) = 0.10633985038097994
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.07354590326003088) = 0.07501401777102625
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07386858844521606) = 0.07528830017843365
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.0728083164544753) = 0.07438706898630401
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.017922417534722224) = 0.027734054904513892
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.05271074459876543) = 0.05730413290895062
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07686949266975308) = 0.07783906876929012
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.019166984953703704) = 0.02879193721064815
+
+
+Iterasi 4:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11656216686358668) = 0.11157784183404867
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11656216686358668) = 0.11157784183404867
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.16717928090036652) = 0.15460238876531154
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10157223907093942) = 0.0988364032102985
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10434924942330567) = 0.10119686200980982
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.07807177784609697) = 0.07886101116918241
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07601567638004758) = 0.07711332492304043
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.0748081123207626) = 0.0760868954726482
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.020209689609857254) = 0.02967823616837867
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.050742045918531375) = 0.05563073903075167
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07265962472672326) = 0.07426068101771477
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.021267970076195988) = 0.03057777456476659
+
+
+Iterasi 5:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11692184263508276) = 0.11188356623982035
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11692184263508276) = 0.11188356623982035
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.1712333856710217) = 0.15804837782036846
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.1005498041103452) = 0.09796733349379341
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10681093989740903) = 0.10328929891279767
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.0767572849423088) = 0.07774369220096247
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07628519318240654) = 0.07734241420504555
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.07189422845027804) = 0.07361009418273634
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.019325298595663943) = 0.028926503806314355
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.050115858830120985) = 0.05509848000560284
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07294494864831827) = 0.07450320635107052
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.020239372401961962) = 0.029703466541667667
+
+
+Iterasi 6:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11742616135033633) = 0.11231223714778588
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11742616135033633) = 0.11231223714778588
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.16978057702998678) = 0.15681349047548876
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10122057497577107) = 0.0985374887294054
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10618995889939445) = 0.10276146506448527
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.0777084290900457) = 0.07855216472653884
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07664403600624485) = 0.07764743060530811
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.07213968934737099) = 0.07381873594526533
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.019756047227546057) = 0.02929264014341415
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.049371100177935626) = 0.05446543515124529
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07167940476247221) = 0.07342749404810138
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.020657859782559535) = 0.030059180815175605
+
+
+Iterasi 7:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11763008209247361) = 0.11248556977860256
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11763008209247361) = 0.11248556977860256
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.17064598743283774) = 0.1575490893179121
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10092678769272553) = 0.0982877695388167
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.1067363206888417) = 0.10322587258551544
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.07759139170492844) = 0.07845268294918917
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07674659643791247) = 0.07773460697222559
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.07131023523442587) = 0.07311369994926199
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.019601686309436095) = 0.029161433363020683
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.04908207666445557) = 0.054219765164787236
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07154646063659217) = 0.07331449154110335
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.020552293012897054) = 0.0299694490609625
+
+
+Iterasi 8:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11779078203305957) = 0.11262216472810063
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11779078203305957) = 0.11262216472810063
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.17037740751086233) = 0.157320796384233
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10106064168103071) = 0.0984015454288761
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10677144588919965) = 0.1032557290058197
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.07783400060804295) = 0.07865890051683651
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.0768463799987032) = 0.07781942299889771
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.07124168259416708) = 0.07305543020504202
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.01969363616473901) = 0.02923959074002816
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.048809397163455115) = 0.05398798758893685
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07113866980657763) = 0.07296786933559098
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.02064517451710309) = 0.030048398339537624
+
+
+Iterasi 9:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.1178864961019186) = 0.11270352168663081
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.1178864961019186) = 0.11270352168663081
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.1705831581502818) = 0.15749568442773954
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10098329998565075) = 0.09833580498780313
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10691894459280941) = 0.103381102903888
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.0778569669252266) = 0.07867842188644261
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.0768861302098379) = 0.0778532106783622
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.07098171645436122) = 0.07283445898620704
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.019665099548029124) = 0.029215334615824755
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.048674433180211) = 0.05387326820317936
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07102611294859099) = 0.07287219600630233
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.02065114580116394) = 0.030053473930989352
+
+
+Iterasi 10:
+  - Kalimat 1: (0.15000000000000002/12) + (0.85 * 0.11794717055411201) = 0.1127550949709952
+  - Kalimat 2: (0.15000000000000002/12) + (0.85 * 0.11794717055411201) = 0.1127550949709952
+  - Kalimat 3: (0.15000000000000002/12) + (0.85 * 0.17053761789297678) = 0.15745697520903026
+  - Kalimat 8: (0.15000000000000002/12) + (0.85 * 0.10100883578736904) = 0.09835751041926367
+  - Kalimat 10: (0.15000000000000002/12) + (0.85 * 0.10697788051827772) = 0.10343119844053605
+  - Kalimat 11: (0.15000000000000002/12) + (0.85 * 0.07793102169645531) = 0.07874136844198701
+  - Kalimat 12: (0.15000000000000002/12) + (0.85 * 0.07692196211323835) = 0.0778836677962526
+  - Kalimat 4: (0.15000000000000002/12) + (0.85 * 0.0709143266571579) = 0.07277717765858421
+  - Kalimat 6: (0.15000000000000002/12) + (0.85 * 0.019686960553467442) = 0.029233916470447326
+  - Kalimat 5: (0.15000000000000002/12) + (0.85 * 0.04856888499750312) = 0.053783552247877654
+  - Kalimat 7: (0.15000000000000002/12) + (0.85 * 0.07088194809455264) = 0.07274965588036975
+  - Kalimat 9: (0.15000000000000002/12) + (0.85 * 0.020676220580777598) = 0.030074787493660958
+
+
+Hasil Akhir PageRank:
+Kalimat 1: 0.1127550949709952
+Kalimat 2: 0.1127550949709952
+Kalimat 3: 0.15745697520903026
+Kalimat 8: 0.09835751041926367
+Kalimat 10: 0.10343119844053605
+Kalimat 11: 0.07874136844198701
+Kalimat 12: 0.0778836677962526
+Kalimat 4: 0.07277717765858421
+Kalimat 6: 0.029233916470447326
+Kalimat 5: 0.053783552247877654
+Kalimat 7: 0.07274965588036975
+Kalimat 9: 0.030074787493660958
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1297,7 +1791,7 @@ lihat: 9.2261
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/6ccbb92a15ad94083b893bc5b9a249cbef98d8ee3768a83ddf8707a4b8b9299a.png" src="_images/6ccbb92a15ad94083b893bc5b9a249cbef98d8ee3768a83ddf8707a4b8b9299a.png" />
+<img alt="_images/63f2a52cc4388abc8aae49674c3b8e83d76315682efdae4ec7fe254e04b5b3e5.png" src="_images/63f2a52cc4388abc8aae49674c3b8e83d76315682efdae4ec7fe254e04b5b3e5.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1355,7 +1849,7 @@ Node 7: 0.0000
 </pre></div>
 </div>
 <div class="output text_html">
-  <div id="df-7dc7115a-7890-46bb-8a9c-dc0f8a17c1f8" class="colab-df-container">
+  <div id="df-6dc9c4dc-3dc1-4e02-b127-b00df7594a46" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1404,7 +1898,7 @@ Node 7: 0.0000
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-7dc7115a-7890-46bb-8a9c-dc0f8a17c1f8')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6dc9c4dc-3dc1-4e02-b127-b00df7594a46')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1456,12 +1950,12 @@ Node 7: 0.0000
 
     <script>
       const buttonEl =
-        document.querySelector('#df-7dc7115a-7890-46bb-8a9c-dc0f8a17c1f8 button.colab-df-convert');
+        document.querySelector('#df-6dc9c4dc-3dc1-4e02-b127-b00df7594a46 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-7dc7115a-7890-46bb-8a9c-dc0f8a17c1f8');
+        const element = document.querySelector('#df-6dc9c4dc-3dc1-4e02-b127-b00df7594a46');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1540,7 +2034,7 @@ Node 7: 0.0146
 </pre></div>
 </div>
 <div class="output text_html">
-  <div id="df-d1b7ae1a-a30c-4c30-93c3-6ec9d3934df9" class="colab-df-container">
+  <div id="df-ae1338d0-0c58-4727-90cb-454deaf50678" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1589,7 +2083,7 @@ Node 7: 0.0146
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-d1b7ae1a-a30c-4c30-93c3-6ec9d3934df9')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-ae1338d0-0c58-4727-90cb-454deaf50678')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1641,12 +2135,12 @@ Node 7: 0.0146
 
     <script>
       const buttonEl =
-        document.querySelector('#df-d1b7ae1a-a30c-4c30-93c3-6ec9d3934df9 button.colab-df-convert');
+        document.querySelector('#df-ae1338d0-0c58-4727-90cb-454deaf50678 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-d1b7ae1a-a30c-4c30-93c3-6ec9d3934df9');
+        const element = document.querySelector('#df-ae1338d0-0c58-4727-90cb-454deaf50678');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1727,7 +2221,7 @@ Node 11: 0.0000
 </pre></div>
 </div>
 <div class="output text_html">
-  <div id="df-d12a3f27-3d3d-43cd-bf6f-bd26014f6d38" class="colab-df-container">
+  <div id="df-c1c90dc3-7415-4eda-aed6-73d269c52a69" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1776,7 +2270,7 @@ Node 11: 0.0000
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-d12a3f27-3d3d-43cd-bf6f-bd26014f6d38')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c1c90dc3-7415-4eda-aed6-73d269c52a69')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -1828,12 +2322,12 @@ Node 11: 0.0000
 
     <script>
       const buttonEl =
-        document.querySelector('#df-d12a3f27-3d3d-43cd-bf6f-bd26014f6d38 button.colab-df-convert');
+        document.querySelector('#df-c1c90dc3-7415-4eda-aed6-73d269c52a69 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-d12a3f27-3d3d-43cd-bf6f-bd26014f6d38');
+        const element = document.querySelector('#df-c1c90dc3-7415-4eda-aed6-73d269c52a69');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1888,15 +2382,6 @@ Node 11: 0.0000
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="LDA_Topic_Modelling.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">LDA_Topic_Modelling</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
